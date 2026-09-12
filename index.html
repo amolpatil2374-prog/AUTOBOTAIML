@@ -30,11 +30,25 @@
   .muted { color: #888; }
   .placeholder { color: #888; font-style: italic; padding: 20px; text-align: center; border: 1px dashed #3a3e48; border-radius: 8px; }
   .log-tail { background: #0a0c10; border-radius: 6px; padding: 12px; font-size: 12px; overflow-x: auto; max-height: 250px; overflow-y: auto; }
+  .gate-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+  .gate-row { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 6px; font-size: 13px; }
+  .gate-pass { background: #1e3a2a; }
+  .gate-fail { background: #3a1e1e; }
+  .gate-pending { background: #2a2a2e; }
+  .gate-icon { width: 18px; text-align: center; font-weight: 600; }
+  .gate-pass .gate-icon { color: #4ade80; }
+  .gate-fail .gate-icon { color: #f87171; }
+  .gate-pending .gate-icon { color: #888; }
+  .gate-name { font-weight: 600; width: 30px; flex-shrink: 0; }
+  .gate-detail { color: #ccc; }
+  .tier1-score { font-size: 42px; font-weight: 600; color: #4ade80; }
+  .tier1-max { font-size: 18px; color: #888; }
+  .tier1-verdict { font-size: 14px; color: #ccc; margin-bottom: 14px; }
 </style>
 </head>
 <body>
   <h1>Option Chain Pipeline — Dashboard</h1>
-  <div class="generated">Generated 2026-09-13 03:28:25 — auto-refreshes every 5 minutes while this tab stays open. Re-run run_daily.py (or wait for the next scheduled run) to update the underlying data.</div>
+  <div class="generated">Generated 2026-09-13 04:20:42 — auto-refreshes every 5 minutes while this tab stays open. Re-run run_daily.py (or wait for the next scheduled run) to update the underlying data.</div>
 
   <div class="card">
     <h2>Pipeline Health</h2>
@@ -79,6 +93,24 @@
         </div>
       <h3>Rows per day</h3>
       <div class="bar-chart"><div class='bar-row'><span class='bar-label'>2026-09-13</span><div class='bar-track'><div class='bar thin' style='width:100%'></div></div><span class='bar-value'>25</span></div></div>
+    </div>
+
+  
+    <div class="card">
+      <h2>NIFTY — KPI Scorecard</h2>
+      <div class="status-badge not-ready">NOT READY (pending)</div>
+      <h3>Tier 0 gates</h3>
+      <div class="gate-list"><div class='gate-row gate-pending'><span class='gate-icon'>&#8230;</span><span class='gate-name'>G1</span><span class='gate-detail'>No runs recorded yet.</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>1/20 trading days collected</span></div><div class='gate-row gate-pending'><span class='gate-icon'>&#8230;</span><span class='gate-name'>G3</span><span class='gate-detail'>Requires Phase 2 model results (not yet built).</span></div><div class='gate-row gate-pending'><span class='gate-icon'>&#8230;</span><span class='gate-name'>G4</span><span class='gate-detail'>Requires Phase 2 model results (not yet built).</span></div><div class='gate-row gate-pending'><span class='gate-icon'>&#8230;</span><span class='gate-name'>G5</span><span class='gate-detail'>Requires Phase 2 model results (not yet built).</span></div></div>
+      <h3>Tier 1 composite score</h3>
+      <p class='muted'>Tier 1 score locked until all Tier 0 gates pass.</p>
+    </div>
+    <div class="card">
+      <h2>CRUDEOILM — KPI Scorecard</h2>
+      <div class="status-badge not-ready">NOT READY (pending)</div>
+      <h3>Tier 0 gates</h3>
+      <div class="gate-list"><div class='gate-row gate-pending'><span class='gate-icon'>&#8230;</span><span class='gate-name'>G1</span><span class='gate-detail'>No runs recorded yet.</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>1/20 trading days collected</span></div><div class='gate-row gate-pending'><span class='gate-icon'>&#8230;</span><span class='gate-name'>G3</span><span class='gate-detail'>Requires Phase 2 model results (not yet built).</span></div><div class='gate-row gate-pending'><span class='gate-icon'>&#8230;</span><span class='gate-name'>G4</span><span class='gate-detail'>Requires Phase 2 model results (not yet built).</span></div><div class='gate-row gate-pending'><span class='gate-icon'>&#8230;</span><span class='gate-name'>G5</span><span class='gate-detail'>Requires Phase 2 model results (not yet built).</span></div></div>
+      <h3>Tier 1 composite score</h3>
+      <p class='muted'>Tier 1 score locked until all Tier 0 gates pass.</p>
     </div>
 
   <div class="card">

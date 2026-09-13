@@ -13,6 +13,16 @@ propagate = False stops messages from also bubbling up to the root logger
 import logging
 import os
 import sys
+from datetime import datetime, timedelta, timezone
+
+
+def now_ist():
+    """Current time in India (IST), no matter which computer/timezone this
+    code actually runs on — needed because GitHub Actions runs on UTC time,
+    while a Windows laptop set to India time does not need this, but using
+    this everywhere keeps both places always showing the same, correct
+    India time without depending on the computer's own clock setting."""
+    return datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)
 
 import config
 

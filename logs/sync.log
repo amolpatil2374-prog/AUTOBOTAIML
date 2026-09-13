@@ -1,0 +1,7 @@
+2026-09-13 14:37:56,008 [INFO] === Sync run starting ===
+2026-09-13 14:37:57,329 [INFO] Found 4 matching tabs.
+2026-09-13 14:37:57,687 [INFO] chain_CRUDEOILM_2026-09-13: synced 25 new rows (total now 25).
+2026-09-13 14:37:57,872 [INFO] chain_NIFTY_2026-09-13: synced 25 new rows (total now 25).
+2026-09-13 14:37:58,048 [INFO] candles_CRUDEOILM_2026-09-13: synced 4 new rows (total now 4).
+2026-09-13 14:37:58,242 [INFO] candles_NIFTY_2026-09-13: synced 4 new rows (total now 4).
+2026-09-13 14:37:58,242 [INFO] === Sync run complete: 58 new rows total ===

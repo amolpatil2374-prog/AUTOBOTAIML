@@ -15,12 +15,11 @@ import sys
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(errors="backslashreplace")
 import logging
-from datetime import datetime
 
 import pandas as pd
 
 import config
-from logging_setup import get_logger
+from logging_setup import get_logger, now_ist
 
 log = get_logger("report", "data_report.log", fmt="%(message)s")
 
@@ -81,7 +80,7 @@ def report_for_symbol(symbol):
 
 
 def main():
-    log.info(f"Data sufficiency report — {datetime.now():%Y-%m-%d %H:%M}")
+    log.info(f"Data sufficiency report — {now_ist():%Y-%m-%d %H:%M} IST")
     results = [report_for_symbol(s) for s in config.SYMBOLS]
 
     log.info(f"\n{'=' * 60}\nSUMMARY\n{'=' * 60}")

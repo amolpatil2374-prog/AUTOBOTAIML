@@ -5,3 +5,6 @@
 2026-09-13 14:37:58,048 [INFO] candles_CRUDEOILM_2026-09-13: synced 4 new rows (total now 4).
 2026-09-13 14:37:58,242 [INFO] candles_NIFTY_2026-09-13: synced 4 new rows (total now 4).
 2026-09-13 14:37:58,242 [INFO] === Sync run complete: 58 new rows total ===
+2026-09-13 14:45:26,384 [INFO] === Sync run starting ===
+2026-09-13 14:45:27,578 [INFO] Found 4 matching tabs.
+2026-09-13 14:45:29,277 [INFO] === Sync run complete: 0 new rows total ===

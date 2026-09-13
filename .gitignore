@@ -1,0 +1,7 @@
+# Never commit real secrets or local machine-specific files.
+config.py
+service_account.json
+state/run_daily.lock
+__pycache__/
+*.pyc
+.env

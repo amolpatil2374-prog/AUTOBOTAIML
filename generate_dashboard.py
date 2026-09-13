@@ -12,12 +12,12 @@ now.
 """
 import os
 import html
-from datetime import datetime
 
 import pandas as pd
 
 import config
 import kpi_scoring
+from logging_setup import now_ist
 
 DASHBOARD_PATH = os.path.join(config.BASE_DIR, "dashboard.html")
 
@@ -158,7 +158,7 @@ def kpi_section_html(symbol):
 
 
 def generate():
-    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    generated_at = now_ist().strftime("%Y-%m-%d %H:%M:%S") + " IST"
     symbol_sections = "".join(symbol_section_html(s) for s in config.SYMBOLS)
     kpi_sections = "".join(kpi_section_html(s) for s in config.SYMBOLS)
 

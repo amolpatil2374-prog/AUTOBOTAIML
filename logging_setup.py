@@ -13,6 +13,7 @@ propagate = False stops messages from also bubbling up to the root logger
 import logging
 import os
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 
 
@@ -23,6 +24,14 @@ def now_ist():
     this everywhere keeps both places always showing the same, correct
     India time without depending on the computer's own clock setting."""
     return datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)
+
+
+def _ist_time_converter(timestamp):
+    """Makes every log line's own timestamp (the part logging writes
+    automatically, e.g. "2026-09-13 14:37:56") show IST too — without this,
+    the log FILE's timestamps still show the computer's own clock (UTC on
+    GitHub Actions), even though now_ist() above fixes other places."""
+    return time.gmtime(timestamp + 5.5 * 3600)
 
 import config
 
@@ -35,6 +44,7 @@ def get_logger(name, log_filename, fmt="%(asctime)s [%(levelname)s] %(message)s"
     if not log.handlers:  # avoid double handlers if a module is ever imported twice
         os.makedirs(config.LOG_DIR, exist_ok=True)
         formatter = logging.Formatter(fmt)
+        formatter.converter = _ist_time_converter
 
         fh = logging.FileHandler(os.path.join(config.LOG_DIR, log_filename), encoding="utf-8")
         fh.setFormatter(formatter)

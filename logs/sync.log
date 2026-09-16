@@ -36,3 +36,10 @@
 2026-09-16 02:48:42,809 [INFO] chain_CRUDEOILM_2026-09-15: synced 21850 new rows (total now 21850).
 2026-09-16 02:48:43,035 [INFO] candles_CRUDEOILM_2026-09-15: synced 875 new rows (total now 875).
 2026-09-16 02:48:46,589 [INFO] === Sync run complete: 32579 new rows total ===
+2026-09-17 02:45:56,862 [INFO] === Sync run starting ===
+2026-09-17 02:45:59,815 [INFO] Found 16 matching tabs.
+2026-09-17 02:46:00,732 [INFO] chain_NIFTY_2026-09-16: synced 9300 new rows (total now 9300).
+2026-09-17 02:46:00,880 [INFO] candles_NIFTY_2026-09-16: synced 375 new rows (total now 375).
+2026-09-17 02:46:02,070 [INFO] chain_CRUDEOILM_2026-09-16: synced 21700 new rows (total now 21700).
+2026-09-17 02:46:02,237 [INFO] candles_CRUDEOILM_2026-09-16: synced 869 new rows (total now 869).
+2026-09-17 02:46:06,608 [INFO] === Sync run complete: 32244 new rows total ===

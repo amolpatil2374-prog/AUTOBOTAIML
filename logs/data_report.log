@@ -328,3 +328,36 @@ SUMMARY
 ============================================================
   NIFTY: NOT READY (5 trading days)
   CRUDEOILM: NOT READY (5 trading days)
+Data sufficiency report — 2026-09-19 02:23 IST
+
+============================================================
+NIFTY — chain data
+============================================================
+Total rows: 47350
+Trading days with data: 6
+Date range: 2026-09-13 to 2026-09-18
+
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+    2026-09-13: 25 rows
+
+NOT READY for training: 6/20 trading days collected.
+Roughly 14 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+
+============================================================
+CRUDEOILM — chain data
+============================================================
+Total rows: 109225
+Trading days with data: 6
+Date range: 2026-09-13 to 2026-09-18
+
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+    2026-09-13: 25 rows
+
+NOT READY for training: 6/20 trading days collected.
+Roughly 14 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+
+============================================================
+SUMMARY
+============================================================
+  NIFTY: NOT READY (6 trading days)
+  CRUDEOILM: NOT READY (6 trading days)

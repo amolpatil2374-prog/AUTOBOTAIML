@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="300">
+<title>Option Chain Pipeline — Dashboard</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; background: #0f1115; color: #e6e6e6; margin: 0; padding: 24px; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .generated { color: #888; font-size: 13px; margin-bottom: 24px; }
+  .card { background: #171a21; border: 1px solid #2a2e38; border-radius: 10px; padding: 20px; margin-bottom: 20px; }
+  .card h2 { margin-top: 0; }
+  .status-badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-bottom: 14px; }
+  .status-badge.ready { background: #1e3a2a; color: #4ade80; }
+  .status-badge.not-ready { background: #3a2a1e; color: #fbbf24; }
+  .stat-grid { display: flex; gap: 32px; margin-bottom: 14px; flex-wrap: wrap; }
+  .stat-label { display: block; color: #888; font-size: 12px; }
+  .stat-value { display: block; font-size: 18px; font-weight: 600; }
+  .progress-track { background: #2a2e38; border-radius: 6px; height: 10px; overflow: hidden; margin-bottom: 14px; }
+  .progress-fill { background: #4ade80; height: 100%; }
+  .warning { background: #2a2114; border: 1px solid #5a4a1e; border-radius: 6px; padding: 10px 14px; margin-bottom: 14px; font-size: 13px; }
+  .warning ul { margin: 6px 0 0 0; padding-left: 20px; }
+  .bar-chart { margin-top: 8px; }
+  .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; font-size: 12px; }
+  .bar-label { width: 100px; color: #aaa; flex-shrink: 0; }
+  .bar-track { flex-grow: 1; background: #2a2e38; border-radius: 4px; overflow: hidden; height: 14px; }
+  .bar { background: #4ade80; height: 100%; }
+  .bar.thin { background: #fbbf24; }
+  .bar-value { width: 50px; text-align: right; color: #ccc; flex-shrink: 0; }
+  .muted { color: #888; }
+  .placeholder { color: #888; font-style: italic; padding: 20px; text-align: center; border: 1px dashed #3a3e48; border-radius: 8px; }
+  .log-tail { background: #0a0c10; border-radius: 6px; padding: 12px; font-size: 12px; overflow-x: auto; max-height: 250px; overflow-y: auto; }
+  .gate-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+  .gate-row { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 6px; font-size: 13px; }
+  .gate-pass { background: #1e3a2a; }
+  .gate-fail { background: #3a1e1e; }
+  .gate-pending { background: #2a2a2e; }
+  .gate-icon { width: 18px; text-align: center; font-weight: 600; }
+  .gate-pass .gate-icon { color: #4ade80; }
+  .gate-fail .gate-icon { color: #f87171; }
+  .gate-pending .gate-icon { color: #888; }
+  .gate-name { font-weight: 600; width: 30px; flex-shrink: 0; }
+  .gate-detail { color: #ccc; }
+  .tier1-score { font-size: 42px; font-weight: 600; color: #4ade80; }
+  .tier1-max { font-size: 18px; color: #888; }
+  .tier1-verdict { font-size: 14px; color: #ccc; margin-bottom: 14px; }
+</style>
+</head>
+<body>
+  <h1>Option Chain Pipeline — Dashboard</h1>
+  <div class="generated">Generated 2026-09-21 21:23:20 IST — auto-refreshes every 5 minutes while this tab stays open. Re-run run_daily.py (or wait for the next scheduled run) to update the underlying data.</div>
+
+  <div class="card">
+    <h2>Pipeline Health</h2>
+    
+      <div class="status-badge ready">Last run completed cleanly</div>
+      <pre class="log-tail">2026-09-18 19:20:15,988 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-18 19:20:17,654 [INFO] === Daily run complete ===
+2026-09-18 23:45:03,680 [INFO] === Daily run starting ===
+2026-09-18 23:45:43,441 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-18 23:45:44,814 [INFO] === Daily run complete ===
+2026-09-19 23:45:08,630 [INFO] === Daily run starting ===
+2026-09-19 23:45:47,345 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-19 23:45:48,805 [INFO] === Daily run complete ===
+2026-09-20 22:02:10,409 [INFO] === Daily run starting ===
+2026-09-20 23:03:06,768 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-20 23:03:09,547 [INFO] === Daily run complete ===
+2026-09-21 19:37:46,089 [INFO] === Daily run starting ===
+2026-09-21 20:10:58,502 [INFO] === Daily run starting ===
+2026-09-21 21:23:18,707 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-21 21:23:20,702 [INFO] === Daily run complete ===
+</pre>
+  </div>
+
+  
+    <div class="card">
+      <h2>NIFTY</h2>
+      <div class="status-badge not-ready">NOT READY</div>
+      <div class="stat-grid">
+        <div><span class="stat-label">Trading days</span><span class="stat-value">7 / 20</span></div>
+        <div><span class="stat-label">Total rows</span><span class="stat-value">56,750</span></div>
+        <div><span class="stat-label">Date range</span><span class="stat-value">2026-09-13 to 2026-09-21</span></div>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:35%"></div></div>
+      
+        <div class="warning">
+          <strong>1 thin day(s)</strong> (fewer than 300 rows —
+          check error_log for that date):
+          <ul><li>2026-09-13: 25 rows</li></ul>
+        </div>
+      <h3>Rows per day</h3>
+      <div class="bar-chart"><div class='bar-row'><span class='bar-label'>2026-09-13</span><div class='bar-track'><div class='bar thin' style='width:2%'></div></div><span class='bar-value'>25</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-14</span><div class='bar-track'><div class='bar' style='width:96%'></div></div><span class='bar-value'>9425</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-15</span><div class='bar-track'><div class='bar' style='width:97%'></div></div><span class='bar-value'>9475</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-16</span><div class='bar-track'><div class='bar' style='width:95%'></div></div><span class='bar-value'>9300</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-17</span><div class='bar-track'><div class='bar' style='width:95%'></div></div><span class='bar-value'>9325</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-18</span><div class='bar-track'><div class='bar' style='width:100%'></div></div><span class='bar-value'>9800</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-21</span><div class='bar-track'><div class='bar' style='width:96%'></div></div><span class='bar-value'>9400</span></div></div>
+    </div>
+    <div class="card">
+      <h2>CRUDEOILM</h2>
+      <div class="status-badge not-ready">NOT READY</div>
+      <div class="stat-grid">
+        <div><span class="stat-label">Trading days</span><span class="stat-value">7 / 20</span></div>
+        <div><span class="stat-label">Total rows</span><span class="stat-value">125,950</span></div>
+        <div><span class="stat-label">Date range</span><span class="stat-value">2026-09-13 to 2026-09-21</span></div>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:35%"></div></div>
+      
+        <div class="warning">
+          <strong>1 thin day(s)</strong> (fewer than 300 rows —
+          check error_log for that date):
+          <ul><li>2026-09-13: 25 rows</li></ul>
+        </div>
+      <h3>Rows per day</h3>
+      <div class="bar-chart"><div class='bar-row'><span class='bar-label'>2026-09-13</span><div class='bar-track'><div class='bar thin' style='width:2%'></div></div><span class='bar-value'>25</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-14</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21750</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-15</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21850</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-16</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21700</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-17</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21700</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-18</span><div class='bar-track'><div class='bar' style='width:100%'></div></div><span class='bar-value'>22200</span></div>
+<div class='bar-row'><span class='bar-label'>2026-09-21</span><div class='bar-track'><div class='bar' style='width:75%'></div></div><span class='bar-value'>16725</span></div></div>
+    </div>
+
+  
+    <div class="card">
+      <h2>NIFTY — KPI Scorecard</h2>
+      <div class="status-badge not-ready">NOT READY</div>
+      <h3>Tier 0 gates</h3>
+      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>18/20 runs completed cleanly (90%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>6/20 trading days collected</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 76.72% at 99.75% confidence (corrected for 20 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G4</span><span class='gate-detail'>14820 total signals, smallest fold 0 (need &gt;=30/fold, &gt;=150 total)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
+      <h3>Tier 1 composite score</h3>
+      <p class='muted'>Tier 1 score locked until all Tier 0 gates pass.</p>
+    </div>
+    <div class="card">
+      <h2>CRUDEOILM — KPI Scorecard</h2>
+      <div class="status-badge not-ready">NOT READY</div>
+      <h3>Tier 0 gates</h3>
+      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>18/20 runs completed cleanly (90%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>7/20 trading days collected</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 89.10% at 99.79% confidence (corrected for 24 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G4</span><span class='gate-detail'>16512 total signals, smallest fold 16512 (need &gt;=30/fold, &gt;=150 total)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
+      <h3>Tier 1 composite score</h3>
+      <p class='muted'>Tier 1 score locked until all Tier 0 gates pass.</p>
+    </div>
+
+  <div class="card">
+    <h2>Model &amp; Strategy Results</h2>
+    <div class="placeholder">
+      Not built yet — this is Phase 2. Once a model exists, its signals, backtest performance,
+      and the data-sufficiency banner will appear here. Showing nothing is more honest than
+      showing something fake.
+    </div>
+  </div>
+</body>
+</html>

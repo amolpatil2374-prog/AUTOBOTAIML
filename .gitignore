@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Credentials / secrets
+.env
+.env.*
+service_account.json
+config.py
+config-main.py
+
+# Temporary files
+~$*
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Runtime state
+state/
+
+# Local/generated market data
+data/*.parquet
+data/*.json
+
+# Backup/archive
+AUTOBOTAIMLGIT.zip
+README.md

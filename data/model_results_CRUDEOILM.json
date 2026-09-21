@@ -1,0 +1,39 @@
+{
+  "combinations_tested": 24,
+  "selected_strategy": {
+    "threshold_pct": 10.0,
+    "window_minutes": 870
+  },
+  "walk_forward": {
+    "overall_win_rate": 0.869608452454941,
+    "total_signals": 24135,
+    "baseline": 0.5,
+    "signals_per_fold": [
+      21922,
+      2213,
+      0
+    ]
+  },
+  "liquidity": {
+    "pct_fresh_signals": 1.0,
+    "pct_acceptable_spread": 0.9998756991920448
+  },
+  "economics": {
+    "n_trades": 24069,
+    "sufficient": true,
+    "net_expectancy_pct": 3.1875660769339307,
+    "actual_win_rate": 0.7571149611533508,
+    "profit_factor": 1.5515177395938387,
+    "breakeven_win_rate": 0.6676761326548608
+  },
+  "risk": {
+    "max_drawdown_pct": null,
+    "sl_efficiency_pct": 80.0,
+    "trailing_capture_pct": 29.678588908672936,
+    "position_sizing_defined": false
+  },
+  "robustness": {
+    "half1_significant": true,
+    "half2_significant": true
+  }
+}

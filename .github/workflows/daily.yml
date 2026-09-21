@@ -1,69 +1,37 @@
-name: Daily Pipeline Run
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-on:
-  schedule:
-    # 18:15 UTC = 23:45 IST, after both markets close. Cron timing on GitHub
-    # Actions can drift a few minutes under load — fine here, since nothing
-    # in this pipeline is latency-sensitive (unlike the 1-minute option
-    # chain logger, which is why THAT one stayed on Apps Script instead).
-    - cron: '15 18 * * 1-5'
-  workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab, any time
+# Virtual environments
+.venv/
+venv/
+env/
 
-permissions:
-  contents: write  # needed so this workflow can commit updated data/dashboard back to the repo
+# Credentials / secrets — these must NEVER be committed
+.env
+.env.*
+service_account.json
+config.py
 
-jobs:
-  run-pipeline:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repo
-        uses: actions/checkout@v4
+# Temporary files
+~$*
+*.tmp
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+# Runtime lock file only — NOT the whole state/ folder. sync_state.json
+# inside state/ must be committed; it's what makes daily syncs incremental
+# instead of re-pulling your entire Sheet history from scratch every run.
+state/run_daily.lock
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+# Backup/archive clutter
+AUTOBOTAIMLGIT.zip
 
-      - name: Write service account credentials from secret
-        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > service_account.json
-
-      - name: Write config.py from secrets
-        # Deliberately independent of the local Windows config.py — that
-        # file is gitignored and never touched by this workflow, so a real
-        # secret sitting in your local copy can never end up here.
-        run: |
-          cat > config.py << 'PYEOF'
-          import os
-          BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-          DATA_DIR = os.path.join(BASE_DIR, "data")
-          LOG_DIR = os.path.join(BASE_DIR, "logs")
-          STATE_DIR = os.path.join(BASE_DIR, "state")
-          SHEET_ID = os.environ["PIPELINE_SHEET_ID"]
-          SERVICE_ACCOUNT_JSON = os.path.join(BASE_DIR, "service_account.json")
-          SYMBOLS = ["NIFTY", "CRUDEOILM"]
-          TAB_KINDS = ["chain", "candles"]
-          GITHUB_TOKEN = ""
-          GITHUB_REPO = ""
-          GITHUB_PAGES_BRANCH = "main"
-          GITHUB_PAGES_URL = ""
-          MIN_TRADING_DAYS_FOR_TRAINING = 20
-          MIN_ROWS_PER_DAY_EXPECTED = 300
-          PYEOF
-        env:
-          PIPELINE_SHEET_ID: ${{ secrets.PIPELINE_SHEET_ID }}
-
-      - name: Run pipeline
-        env:
-          PIPELINE_SHEET_ID: ${{ secrets.PIPELINE_SHEET_ID }}
-        run: python run_daily.py
-
-      - name: Commit updated data and dashboard back to the repo
-        run: |
-          git config user.name "pipeline-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/ logs/ state/sync_state.json dashboard.html
-          git diff --staged --quiet || git commit -m "Automated daily pipeline update"
-          git push
+# NOTE: logs/, data/*.parquet, data/*.json, and README.md are
+# intentionally NOT listed here. All of these need to be committed:
+#   - logs/run_daily.log: needed for G1's reliability tracking to
+#     accumulate real history across runs
+#   - data/*.parquet: your actual accumulated option chain data
+#   - data/model_results_*.json: Phase 2's real output, what the
+#     dashboard's KPI scorecard reads
+#   - README.md: your project documentation, should always be tracked

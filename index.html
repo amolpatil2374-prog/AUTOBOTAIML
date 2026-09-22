@@ -48,15 +48,13 @@
 </head>
 <body>
   <h1>Option Chain Pipeline — Dashboard</h1>
-  <div class="generated">Generated 2026-09-22 21:54:27 IST — auto-refreshes every 5 minutes while this tab stays open. Re-run run_daily.py (or wait for the next scheduled run) to update the underlying data.</div>
+  <div class="generated">Generated 2026-09-22 21:54:30 IST — auto-refreshes every 5 minutes while this tab stays open. Re-run run_daily.py (or wait for the next scheduled run) to update the underlying data.</div>
 
   <div class="card">
     <h2>Pipeline Health</h2>
     
       <div class="status-badge ready">Last run completed cleanly</div>
-      <pre class="log-tail">2026-09-19 23:45:48,805 [INFO] === Daily run complete ===
-2026-09-20 22:02:10,409 [INFO] === Daily run starting ===
-2026-09-20 23:03:06,768 [INFO] Dashboard regenerated (pre-completion pass).
+      <pre class="log-tail">2026-09-20 23:03:06,768 [INFO] Dashboard regenerated (pre-completion pass).
 2026-09-20 23:03:09,547 [INFO] === Daily run complete ===
 2026-09-21 19:37:46,089 [INFO] === Daily run starting ===
 2026-09-21 20:10:58,502 [INFO] === Daily run starting ===
@@ -69,6 +67,8 @@
 2026-09-22 03:09:52,192 [INFO] Dashboard regenerated (pre-completion pass).
 2026-09-22 03:09:54,307 [INFO] === Daily run complete ===
 2026-09-22 20:23:04,207 [INFO] === Daily run starting ===
+2026-09-22 21:54:28,518 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-22 21:54:30,319 [INFO] === Daily run complete ===
 </pre>
   </div>
 
@@ -129,7 +129,7 @@
       <h2>NIFTY — KPI Scorecard</h2>
       <div class="status-badge not-ready">NOT READY</div>
       <h3>Tier 0 gates</h3>
-      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>20/23 runs completed cleanly (87%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>7/20 trading days collected</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 76.72% at 99.75% confidence (corrected for 20 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G4</span><span class='gate-detail'>14820 total signals, smallest fold 0 (need &gt;=30/fold, &gt;=1318 total — computed to reliably detect a 5% edge at 80% power, corrected for 20 combinations)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
+      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>21/23 runs completed cleanly (91%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>7/20 trading days collected</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 76.72% at 99.75% confidence (corrected for 20 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G4</span><span class='gate-detail'>14820 total signals, smallest fold 0 (need &gt;=30/fold, &gt;=1318 total — computed to reliably detect a 5% edge at 80% power, corrected for 20 combinations)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
       <h3>Tier 1 composite score</h3>
       <p class='muted'>Tier 1 score locked until all Tier 0 gates pass.</p>
     </div>
@@ -137,7 +137,7 @@
       <h2>CRUDEOILM — KPI Scorecard</h2>
       <div class="status-badge not-ready">NOT READY</div>
       <h3>Tier 0 gates</h3>
-      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>20/23 runs completed cleanly (87%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>8/20 trading days collected</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 82.32% at 99.79% confidence (corrected for 24 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G4</span><span class='gate-detail'>22183 total signals, smallest fold 103 (need &gt;=30/fold, &gt;=1361 total — computed to reliably detect a 5% edge at 80% power, corrected for 24 combinations)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
+      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>21/23 runs completed cleanly (91%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>8/20 trading days collected</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 82.32% at 99.79% confidence (corrected for 24 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G4</span><span class='gate-detail'>22183 total signals, smallest fold 103 (need &gt;=30/fold, &gt;=1361 total — computed to reliably detect a 5% edge at 80% power, corrected for 24 combinations)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
       <h3>Tier 1 composite score</h3>
       <p class='muted'>Tier 1 score locked until all Tier 0 gates pass.</p>
     </div>

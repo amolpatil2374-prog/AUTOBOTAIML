@@ -36,3 +36,6 @@
 2026-09-23 01:24:57,846 [INFO] chain_CRUDEOILM_2026-09-22: synced 21725 new rows (total now 21725).
 2026-09-23 01:24:58,102 [INFO] candles_CRUDEOILM_2026-09-22: synced 869 new rows (total now 869).
 2026-09-23 01:25:18,806 [INFO] === Sync run complete: 32370 new rows total ===
+2026-09-23 02:53:12,474 [INFO] === Sync run starting ===
+2026-09-23 02:53:20,184 [INFO] Found 32 matching tabs.
+2026-09-23 02:53:43,027 [INFO] === Sync run complete: 0 new rows total ===

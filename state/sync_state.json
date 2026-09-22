@@ -26,5 +26,9 @@
   "chain_CRUDEOILM_2026-09-13": 25,
   "chain_NIFTY_2026-09-13": 25,
   "candles_CRUDEOILM_2026-09-13": 4,
-  "candles_NIFTY_2026-09-13": 4
+  "candles_NIFTY_2026-09-13": 4,
+  "chain_NIFTY_2026-09-22": 9400,
+  "candles_NIFTY_2026-09-22": 376,
+  "chain_CRUDEOILM_2026-09-22": 21725,
+  "candles_CRUDEOILM_2026-09-22": 869
 }

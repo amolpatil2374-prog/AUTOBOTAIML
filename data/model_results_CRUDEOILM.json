@@ -10,7 +10,8 @@
     "baseline": 0.5,
     "signals_per_fold": [
       22080,
-      103
+      103,
+      0
     ]
   },
   "liquidity": {

@@ -1,0 +1,109 @@
+2026-09-13 04:28:59,368 [INFO] === Daily run starting ===
+2026-09-13 04:29:02,882 [INFO] Dashboard regenerated.
+2026-09-13 04:29:04,726 [INFO] === Daily run complete ===
+2026-09-13 19:06:41,756 [INFO] === Daily run starting ===
+2026-09-13 19:07:54,876 [INFO] Dashboard regenerated.
+2026-09-13 19:08:01,595 [INFO] === Daily run complete ===
+2026-09-13 19:16:26,000 [INFO] === Daily run starting ===
+2026-09-13 19:16:31,928 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-13 19:16:35,097 [INFO] === Daily run complete ===
+2026-09-13 19:20:44,073 [INFO] === Daily run starting ===
+2026-09-13 19:20:50,735 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-13 19:20:53,570 [INFO] === Daily run complete ===
+2026-09-13 19:24:59,326 [INFO] === Daily run starting ===
+2026-09-13 19:25:06,331 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-13 19:25:09,700 [INFO] === Daily run complete ===
+2026-09-13 19:43:09,865 [INFO] === Daily run starting ===
+2026-09-13 19:43:15,843 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-13 19:43:19,967 [INFO] === Daily run complete ===
+2026-09-14 20:12:12,998 [INFO] === Daily run starting ===
+2026-09-14 20:12:22,685 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-14 20:12:24,618 [INFO] === Daily run complete ===
+2026-09-15 18:27:01,562 [INFO] === Daily run starting ===
+2026-09-15 18:27:19,090 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-15 18:27:20,819 [INFO] === Daily run complete ===
+2026-09-16 10:39:20,217 [INFO] === Daily run starting ===
+2026-09-16 20:05:38,917 [WARNING] Found a lock file 33979s old — treating as stale (from a crashed run) and continuing.
+2026-09-16 20:05:39,115 [INFO] === Daily run starting ===
+2026-09-16 20:06:20,770 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-16 20:06:23,521 [INFO] === Daily run complete ===
+2026-09-16 20:12:57,394 [INFO] === Daily run starting ===
+2026-09-16 20:14:14,776 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-16 20:14:16,993 [INFO] === Daily run complete ===
+2026-09-16 20:17:17,334 [INFO] === Daily run starting ===
+2026-09-16 20:18:18,822 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-16 20:18:20,700 [INFO] === Daily run complete ===
+2026-09-17 11:06:12,030 [INFO] === Daily run starting ===
+2026-09-17 11:06:37,674 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-17 11:06:39,353 [INFO] === Daily run complete ===
+2026-09-18 19:14:05,751 [INFO] === Daily run starting ===
+2026-09-18 19:14:57,323 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-18 19:14:59,076 [INFO] === Daily run complete ===
+2026-09-18 19:19:34,236 [INFO] === Daily run starting ===
+2026-09-18 19:20:15,988 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-18 19:20:17,654 [INFO] === Daily run complete ===
+2026-09-18 23:45:03,680 [INFO] === Daily run starting ===
+2026-09-18 23:45:43,441 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-18 23:45:44,814 [INFO] === Daily run complete ===
+2026-09-19 23:45:08,630 [INFO] === Daily run starting ===
+2026-09-19 23:45:47,345 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-19 23:45:48,805 [INFO] === Daily run complete ===
+2026-09-20 22:02:10,409 [INFO] === Daily run starting ===
+2026-09-20 23:03:06,768 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-20 23:03:09,547 [INFO] === Daily run complete ===
+2026-09-21 19:37:46,089 [INFO] === Daily run starting ===
+2026-09-21 20:10:58,502 [INFO] === Daily run starting ===
+2026-09-21 21:23:18,707 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-21 21:23:20,702 [INFO] === Daily run complete ===
+2026-09-21 23:45:17,619 [INFO] === Daily run starting ===
+2026-09-22 01:04:20,058 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-22 01:04:22,938 [INFO] === Daily run complete ===
+2026-09-22 01:57:06,562 [INFO] === Daily run starting ===
+2026-09-22 03:09:52,192 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-22 03:09:54,307 [INFO] === Daily run complete ===
+2026-09-22 20:23:04,207 [INFO] === Daily run starting ===
+2026-09-22 21:54:28,518 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-22 21:54:30,319 [INFO] === Daily run complete ===
+2026-09-22 23:45:19,023 [INFO] === Daily run starting ===
+2026-09-23 01:18:51,574 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-23 01:18:54,215 [INFO] === Daily run complete ===
+2026-09-23 01:22:43,150 [INFO] === Daily run starting ===
+2026-09-23 02:48:42,797 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-23 02:48:44,788 [INFO] === Daily run complete ===
+2026-09-23 10:57:44,509 [INFO] === Daily run starting ===
+2026-09-23 20:02:27,375 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-23 20:02:30,216 [INFO] === Daily run complete ===
+2026-09-23 23:45:18,196 [INFO] === Daily run starting ===
+2026-09-24 01:28:14,073 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-24 01:28:16,064 [INFO] === Daily run complete ===
+2026-09-24 23:45:22,455 [INFO] === Daily run starting ===
+2026-09-25 04:58:05,025 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-25 04:58:07,078 [INFO] === Daily run complete ===
+2026-09-25 14:14:32,218 [INFO] === Daily run starting ===
+2026-09-25 23:45:56,312 [WARNING] Found a lock file 34284s old — treating as stale (from a crashed run) and continuing.
+2026-09-25 23:45:56,319 [INFO] === Daily run starting ===
+2026-09-26 03:18:05,847 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-26 03:18:09,293 [INFO] === Daily run complete ===
+2026-09-28 19:09:13,361 [INFO] === Daily run starting ===
+2026-09-28 21:29:31,704 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-28 21:29:34,203 [INFO] === Daily run complete ===
+2026-09-29 14:16:10,993 [INFO] === Daily run starting ===
+2026-09-29 14:17:30,292 [WARNING] Another run appears to already be in progress (lock file is recent) — skipping this invocation entirely rather than risking concurrent writes.
+2026-09-29 15:40:52,380 [INFO] === Daily run starting ===
+2026-09-29 15:47:27,204 [INFO] === Daily run starting ===
+2026-09-29 18:21:23,571 [INFO] === Daily run starting ===
+2026-09-29 21:01:20,315 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-29 21:01:23,107 [INFO] === Daily run complete ===
+2026-09-29 23:45:59,901 [INFO] === Daily run starting ===
+2026-09-30 02:34:01,473 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-30 02:34:03,395 [INFO] === Daily run complete ===
+2026-09-30 17:40:53,518 [INFO] === Daily run starting ===
+2026-09-30 20:38:12,310 [INFO] Dashboard regenerated (pre-completion pass).
+2026-09-30 20:38:14,765 [INFO] === Daily run complete ===
+2026-10-01 19:43:42,167 [INFO] === Daily run starting ===
+2026-10-01 19:44:30,417 [ERROR] Sync step failed: Could not open Parquet input source '<Buffer>': Parquet file size is 0 bytes. Continuing to report on whatever data already exists locally.
+2026-10-01 19:44:31,928 [ERROR] Report step failed: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2026-10-01 23:58:40,594 [INFO] Dashboard regenerated (pre-completion pass).
+2026-10-01 23:58:43,020 [INFO] === Daily run complete ===
+2026-10-02 00:00:49,317 [INFO] Dashboard regenerated (pre-completion pass).
+2026-10-02 00:00:52,521 [INFO] === Daily run complete ===

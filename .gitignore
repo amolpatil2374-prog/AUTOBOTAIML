@@ -9,28 +9,29 @@ __pycache__/
 venv/
 env/
 
-# Credentials / secrets
+# Credentials / secrets — these must NEVER be committed
 .env
 .env.*
 service_account.json
 config.py
-config-main.py
 
 # Temporary files
 ~$*
 *.tmp
 
-# Logs
-logs/
-*.log
+# Runtime lock file only — NOT the whole state/ folder. sync_state.json
+# inside state/ must be committed; it's what makes daily syncs incremental
+# instead of re-pulling your entire Sheet history from scratch every run.
+state/run_daily.lock
 
-# Runtime state
-state/
-
-# Local/generated market data
-data/*.parquet
-data/*.json
-
-# Backup/archive
+# Backup/archive clutter
 AUTOBOTAIMLGIT.zip
-README.md
+
+# NOTE: logs/, data/*.parquet, data/*.json, and README.md are
+# intentionally NOT listed here. All of these need to be committed:
+#   - logs/run_daily.log: needed for G1's reliability tracking to
+#     accumulate real history across runs
+#   - data/*.parquet: your actual accumulated option chain data
+#   - data/model_results_*.json: Phase 2's real output, what the
+#     dashboard's KPI scorecard reads
+#   - README.md: your project documentation, should always be tracked

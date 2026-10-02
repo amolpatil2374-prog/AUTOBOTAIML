@@ -13,10 +13,15 @@ def compute_economics(features_df, threshold_pct, window_minutes):
     buy at ask, and either sell at bid once the LTP-based threshold is
     hit (a real winner) or sell at bid at window end (a real loser or a
     breakeven-ish exit). Returns None if too few trades exist to report
-    anything meaningful."""
+    anything meaningful.
+
+    Also returns the raw per-trade list (date, entry/exit prices, return)
+    — needed by robustness_gates.py for the single-day-concentration and
+    slippage-stress checks, which can't be computed from the aggregate
+    numbers alone."""
     df = features_df.sort_values(["strike", "option_type", "timestamp"]).copy()
 
-    trade_returns_pct = []
+    trades = []  # each: {date, entry_ask, entry_bid, exit_bid, return_pct}
 
     for (strike, side), group in df.groupby(["strike", "option_type"], sort=False):
         group = group.sort_values("timestamp").reset_index(drop=True)
@@ -28,6 +33,7 @@ def compute_economics(features_df, threshold_pct, window_minutes):
         for i in range(len(group)):
             entry_time = times[i]
             entry_ask = asks[i]
+            entry_bid = bids[i]  # spread AT ENTRY — needed for the slippage stress test
             entry_ltp = ltps[i]
             if pd.isna(entry_ask) or entry_ask <= 0 or pd.isna(entry_ltp) or entry_ltp <= 0:
                 continue
@@ -49,14 +55,20 @@ def compute_economics(features_df, threshold_pct, window_minutes):
                 exit_bid = future_bids[-1]  # window ended — exit at the last available real bid
 
             trade_return_pct = (exit_bid - entry_ask) / entry_ask * 100  # real, slippage-inclusive return
-            trade_returns_pct.append(trade_return_pct)
+            trades.append({
+                "date": pd.Timestamp(entry_time).date(),
+                "entry_ask": float(entry_ask),
+                "entry_bid": float(entry_bid) if not pd.isna(entry_bid) and entry_bid > 0 else None,
+                "exit_bid": float(exit_bid),
+                "return_pct": float(trade_return_pct),
+            })
 
     MIN_TRADES = 20
-    if len(trade_returns_pct) < MIN_TRADES:
-        return {"n_trades": len(trade_returns_pct), "sufficient": False}
+    if len(trades) < MIN_TRADES:
+        return {"n_trades": len(trades), "sufficient": False, "trades": trades}
 
     import numpy as np
-    returns = np.array(trade_returns_pct)
+    returns = np.array([t["return_pct"] for t in trades])
     wins = returns[returns > 0]
     losses = returns[returns <= 0]
 
@@ -65,12 +77,13 @@ def compute_economics(features_df, threshold_pct, window_minutes):
     profit_factor = (gross_profit / gross_loss) if gross_loss > 0 else None
 
     return {
-        "n_trades": len(trade_returns_pct),
+        "n_trades": len(trades),
         "sufficient": True,
         "net_expectancy_pct": float(returns.mean()),
         "actual_win_rate": float((returns > 0).mean()),
         "profit_factor": profit_factor,
         "breakeven_win_rate": _breakeven_win_rate(wins, losses),
+        "trades": trades,
     }
 
 

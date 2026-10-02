@@ -1,0 +1,498 @@
+2026-09-13 02:33:10,153 [INFO] === Daily run starting ===
+2026-09-13 02:33:10,155 [INFO] === Sync run starting ===
+2026-09-13 02:33:11,524 [INFO] Found 4 matching tabs.
+2026-09-13 02:33:12,343 [INFO] chain_CRUDEOILM_2026-09-13: synced 25 new rows (total now 25).
+2026-09-13 02:33:12,824 [INFO] chain_NIFTY_2026-09-13: synced 25 new rows (total now 25).
+2026-09-13 02:33:13,312 [INFO] candles_CRUDEOILM_2026-09-13: synced 4 new rows (total now 4).
+2026-09-13 02:33:13,720 [INFO] candles_NIFTY_2026-09-13: synced 4 new rows (total now 4).
+2026-09-13 02:33:13,723 [INFO] === Sync run complete: 58 new rows total ===
+2026-09-13 02:33:13,732 [INFO] Data sufficiency report � 2026-09-13 02:33
+2026-09-13 02:33:13,734 [INFO] 
+============================================================
+NIFTY � chain data
+============================================================
+2026-09-13 02:33:14,267 [INFO] Total rows: 25
+2026-09-13 02:33:14,267 [INFO] Trading days with data: 1
+2026-09-13 02:33:14,268 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 02:33:14,295 [INFO]     2026-09-13: 25 rows
+2026-09-13 02:33:14,296 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 02:33:14,296 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor � and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 02:33:14,297 [INFO] 
+============================================================
+CRUDEOILM � chain data
+============================================================
+2026-09-13 02:33:14,318 [INFO] Total rows: 25
+2026-09-13 02:33:14,318 [INFO] Trading days with data: 1
+2026-09-13 02:33:14,320 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 02:33:14,327 [INFO]     2026-09-13: 25 rows
+2026-09-13 02:33:14,328 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 02:33:14,328 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor � and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 02:33:14,329 [INFO] 
+============================================================
+SUMMARY
+============================================================
+2026-09-13 02:33:14,329 [INFO]   NIFTY: NOT READY (1 trading days)
+2026-09-13 02:33:14,330 [INFO]   CRUDEOILM: NOT READY (1 trading days)
+2026-09-13 02:33:14,330 [INFO] === Daily run complete ===
+2026-09-13 02:37:07,973 [INFO] === Daily run starting ===
+2026-09-13 02:37:07,974 [INFO] === Sync run starting ===
+2026-09-13 02:37:09,325 [INFO] Found 4 matching tabs.
+2026-09-13 02:37:10,927 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 02:37:10,936 [INFO] Data sufficiency report — 2026-09-13 02:37
+2026-09-13 02:37:10,936 [INFO] 
+============================================================
+NIFTY — chain data
+============================================================
+2026-09-13 02:37:11,086 [INFO] Total rows: 25
+2026-09-13 02:37:11,086 [INFO] Trading days with data: 1
+2026-09-13 02:37:11,087 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 02:37:11,087 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 02:37:11,088 [INFO]     2026-09-13: 25 rows
+2026-09-13 02:37:11,088 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 02:37:11,088 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 02:37:11,089 [INFO] 
+============================================================
+CRUDEOILM — chain data
+============================================================
+2026-09-13 02:37:11,100 [INFO] Total rows: 25
+2026-09-13 02:37:11,101 [INFO] Trading days with data: 1
+2026-09-13 02:37:11,101 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 02:37:11,102 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 02:37:11,103 [INFO]     2026-09-13: 25 rows
+2026-09-13 02:37:11,104 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 02:37:11,104 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 02:37:11,105 [INFO] 
+============================================================
+SUMMARY
+============================================================
+2026-09-13 02:37:11,105 [INFO]   NIFTY: NOT READY (1 trading days)
+2026-09-13 02:37:11,106 [INFO]   CRUDEOILM: NOT READY (1 trading days)
+2026-09-13 02:37:11,107 [INFO] === Daily run complete ===
+2026-09-13 02:38:04,187 [INFO] === Daily run starting ===
+2026-09-13 02:38:04,188 [INFO] === Sync run starting ===
+2026-09-13 02:38:05,441 [INFO] Found 4 matching tabs.
+2026-09-13 02:38:07,080 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 02:38:07,090 [INFO] Data sufficiency report — 2026-09-13 02:38
+2026-09-13 02:38:07,091 [INFO] 
+============================================================
+NIFTY — chain data
+============================================================
+2026-09-13 02:38:07,221 [INFO] Total rows: 25
+2026-09-13 02:38:07,221 [INFO] Trading days with data: 1
+2026-09-13 02:38:07,225 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 02:38:07,227 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 02:38:07,228 [INFO]     2026-09-13: 25 rows
+2026-09-13 02:38:07,229 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 02:38:07,230 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 02:38:07,231 [INFO] 
+============================================================
+CRUDEOILM — chain data
+============================================================
+2026-09-13 02:38:07,251 [INFO] Total rows: 25
+2026-09-13 02:38:07,251 [INFO] Trading days with data: 1
+2026-09-13 02:38:07,252 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 02:38:07,254 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 02:38:07,255 [INFO]     2026-09-13: 25 rows
+2026-09-13 02:38:07,255 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 02:38:07,260 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 02:38:07,264 [INFO] 
+============================================================
+SUMMARY
+============================================================
+2026-09-13 02:38:07,265 [INFO]   NIFTY: NOT READY (1 trading days)
+2026-09-13 02:38:07,266 [INFO]   CRUDEOILM: NOT READY (1 trading days)
+2026-09-13 02:38:07,267 [INFO] === Daily run complete ===
+2026-09-13 02:58:03,568 [INFO] === Daily run starting ===
+2026-09-13 02:58:03,569 [INFO] === Sync run starting ===
+2026-09-13 02:58:05,456 [INFO] Found 4 matching tabs.
+2026-09-13 02:58:07,402 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 02:58:07,410 [INFO] Data sufficiency report — 2026-09-13 02:58
+2026-09-13 02:58:07,411 [INFO] 
+============================================================
+NIFTY — chain data
+============================================================
+2026-09-13 02:58:07,568 [INFO] Total rows: 25
+2026-09-13 02:58:07,568 [INFO] Trading days with data: 1
+2026-09-13 02:58:07,569 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 02:58:07,570 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 02:58:07,570 [INFO]     2026-09-13: 25 rows
+2026-09-13 02:58:07,571 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 02:58:07,571 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 02:58:07,572 [INFO] 
+============================================================
+CRUDEOILM — chain data
+============================================================
+2026-09-13 02:58:07,590 [INFO] Total rows: 25
+2026-09-13 02:58:07,590 [INFO] Trading days with data: 1
+2026-09-13 02:58:07,591 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 02:58:07,591 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 02:58:07,592 [INFO]     2026-09-13: 25 rows
+2026-09-13 02:58:07,592 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 02:58:07,593 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 02:58:07,594 [INFO] 
+============================================================
+SUMMARY
+============================================================
+2026-09-13 02:58:07,595 [INFO]   NIFTY: NOT READY (1 trading days)
+2026-09-13 02:58:07,596 [INFO]   CRUDEOILM: NOT READY (1 trading days)
+2026-09-13 02:58:07,596 [INFO] === Daily run complete ===
+2026-09-13 03:06:31,023 [INFO] === Daily run starting ===
+2026-09-13 03:06:31,024 [INFO] === Sync run starting ===
+2026-09-13 03:06:32,766 [INFO] Found 4 matching tabs.
+2026-09-13 03:06:34,566 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 03:06:34,574 [INFO] Data sufficiency report — 2026-09-13 03:06
+2026-09-13 03:06:34,575 [INFO] 
+============================================================
+NIFTY — chain data
+============================================================
+2026-09-13 03:06:34,679 [INFO] Total rows: 25
+2026-09-13 03:06:34,679 [INFO] Trading days with data: 1
+2026-09-13 03:06:34,680 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 03:06:34,680 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 03:06:34,681 [INFO]     2026-09-13: 25 rows
+2026-09-13 03:06:34,681 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 03:06:34,681 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 03:06:34,681 [INFO] 
+============================================================
+CRUDEOILM — chain data
+============================================================
+2026-09-13 03:06:34,692 [INFO] Total rows: 25
+2026-09-13 03:06:34,692 [INFO] Trading days with data: 1
+2026-09-13 03:06:34,692 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 03:06:34,693 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 03:06:34,693 [INFO]     2026-09-13: 25 rows
+2026-09-13 03:06:34,694 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 03:06:34,695 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 03:06:34,695 [INFO] 
+============================================================
+SUMMARY
+============================================================
+2026-09-13 03:06:34,696 [INFO]   NIFTY: NOT READY (1 trading days)
+2026-09-13 03:06:34,696 [INFO]   CRUDEOILM: NOT READY (1 trading days)
+2026-09-13 03:06:34,724 [INFO] Dashboard regenerated.
+2026-09-13 03:06:34,724 [INFO] === Daily run complete ===
+2026-09-13 03:28:21,619 [INFO] === Daily run starting ===
+2026-09-13 03:28:21,620 [INFO] === Sync run starting ===
+2026-09-13 03:28:23,183 [INFO] Found 4 matching tabs.
+2026-09-13 03:28:25,057 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 03:28:25,068 [INFO] Data sufficiency report — 2026-09-13 03:28
+2026-09-13 03:28:25,069 [INFO] 
+============================================================
+NIFTY — chain data
+============================================================
+2026-09-13 03:28:25,152 [INFO] Total rows: 25
+2026-09-13 03:28:25,153 [INFO] Trading days with data: 1
+2026-09-13 03:28:25,154 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 03:28:25,159 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 03:28:25,160 [INFO]     2026-09-13: 25 rows
+2026-09-13 03:28:25,161 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 03:28:25,161 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 03:28:25,162 [INFO] 
+============================================================
+CRUDEOILM — chain data
+============================================================
+2026-09-13 03:28:25,172 [INFO] Total rows: 25
+2026-09-13 03:28:25,172 [INFO] Trading days with data: 1
+2026-09-13 03:28:25,173 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 03:28:25,174 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 03:28:25,174 [INFO]     2026-09-13: 25 rows
+2026-09-13 03:28:25,175 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 03:28:25,176 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 03:28:25,180 [INFO] 
+============================================================
+SUMMARY
+============================================================
+2026-09-13 03:28:25,183 [INFO]   NIFTY: NOT READY (1 trading days)
+2026-09-13 03:28:25,183 [INFO]   CRUDEOILM: NOT READY (1 trading days)
+2026-09-13 03:28:25,208 [INFO] Dashboard regenerated.
+2026-09-13 03:28:26,516 [INFO] Dashboard published successfully to https://yourusername.github.io/your-repo-name/
+2026-09-13 03:28:26,519 [INFO] === Daily run complete ===
+2026-09-13 04:20:39,437 [INFO] === Daily run starting ===
+2026-09-13 04:20:39,437 [INFO] === Sync run starting ===
+2026-09-13 04:20:41,065 [INFO] Found 4 matching tabs.
+2026-09-13 04:20:42,827 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 04:20:42,834 [INFO] Data sufficiency report — 2026-09-13 04:20
+2026-09-13 04:20:42,835 [INFO] 
+============================================================
+NIFTY — chain data
+============================================================
+2026-09-13 04:20:42,919 [INFO] Total rows: 25
+2026-09-13 04:20:42,920 [INFO] Trading days with data: 1
+2026-09-13 04:20:42,920 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 04:20:42,920 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 04:20:42,921 [INFO]     2026-09-13: 25 rows
+2026-09-13 04:20:42,921 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 04:20:42,922 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 04:20:42,923 [INFO] 
+============================================================
+CRUDEOILM — chain data
+============================================================
+2026-09-13 04:20:42,936 [INFO] Total rows: 25
+2026-09-13 04:20:42,937 [INFO] Trading days with data: 1
+2026-09-13 04:20:42,937 [INFO] Date range: 2026-09-13 to 2026-09-13
+2026-09-13 04:20:42,938 [INFO] 
+WARNING: 1 day(s) with fewer than 300 rows (possible partial log day — worth checking error_log for that date):
+2026-09-13 04:20:42,939 [INFO]     2026-09-13: 25 rows
+2026-09-13 04:20:42,939 [INFO] 
+NOT READY for training: 1/20 trading days collected.
+2026-09-13 04:20:42,939 [INFO] Roughly 19 more trading day(s) needed before this crosses even the minimum floor — and crossing the floor means 'trainable without pure noise-fitting', not 'reliable'.
+2026-09-13 04:20:42,940 [INFO] 
+============================================================
+SUMMARY
+============================================================
+2026-09-13 04:20:42,940 [INFO]   NIFTY: NOT READY (1 trading days)
+2026-09-13 04:20:42,941 [INFO]   CRUDEOILM: NOT READY (1 trading days)
+2026-09-13 04:20:42,987 [INFO] Dashboard regenerated.
+2026-09-13 04:20:44,267 [INFO] Dashboard published successfully to https://yourusername.github.io/your-repo-name/
+2026-09-13 04:20:44,272 [INFO] === Daily run complete ===
+2026-09-13 04:28:59,369 [INFO] === Sync run starting ===
+2026-09-13 04:29:00,976 [INFO] Found 4 matching tabs.
+2026-09-13 04:29:02,715 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 19:06:41,757 [INFO] === Sync run starting ===
+2026-09-13 19:06:48,819 [INFO] Found 4 matching tabs.
+2026-09-13 19:06:51,813 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 19:11:46,937 [INFO] === Sync run starting ===
+2026-09-13 19:11:51,719 [INFO] Found 4 matching tabs.
+2026-09-13 19:11:54,065 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 19:16:26,001 [INFO] === Sync run starting ===
+2026-09-13 19:16:29,441 [INFO] Found 4 matching tabs.
+2026-09-13 19:16:31,750 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 19:20:44,074 [INFO] === Sync run starting ===
+2026-09-13 19:20:47,765 [INFO] Found 4 matching tabs.
+2026-09-13 19:20:49,939 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 19:24:59,327 [INFO] === Sync run starting ===
+2026-09-13 19:25:03,701 [INFO] Found 4 matching tabs.
+2026-09-13 19:25:06,143 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-13 19:43:09,865 [INFO] === Sync run starting ===
+2026-09-13 19:43:13,815 [INFO] Found 4 matching tabs.
+2026-09-13 19:43:15,678 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-14 20:12:12,999 [INFO] === Sync run starting ===
+2026-09-14 20:12:14,429 [INFO] Found 8 matching tabs.
+2026-09-14 20:12:16,588 [INFO] chain_NIFTY_2026-09-14: synced 9425 new rows (total now 9425).
+2026-09-14 20:12:17,506 [INFO] candles_NIFTY_2026-09-14: synced 377 new rows (total now 377).
+2026-09-14 20:12:19,680 [INFO] chain_CRUDEOILM_2026-09-14: synced 16775 new rows (total now 16775).
+2026-09-14 20:12:20,254 [INFO] candles_CRUDEOILM_2026-09-14: synced 672 new rows (total now 672).
+2026-09-14 20:12:22,313 [INFO] === Sync run complete: 27249 new rows total ===
+2026-09-15 18:27:01,566 [INFO] === Sync run starting ===
+2026-09-15 18:27:03,163 [INFO] Found 12 matching tabs.
+2026-09-15 18:27:06,131 [INFO] chain_NIFTY_2026-09-15: synced 9475 new rows (total now 9475).
+2026-09-15 18:27:06,740 [INFO] candles_NIFTY_2026-09-15: synced 379 new rows (total now 379).
+2026-09-15 18:27:09,392 [INFO] chain_CRUDEOILM_2026-09-15: synced 14250 new rows (total now 14250).
+2026-09-15 18:27:10,020 [INFO] candles_CRUDEOILM_2026-09-15: synced 571 new rows (total now 571).
+2026-09-15 18:27:14,912 [INFO] chain_CRUDEOILM_2026-09-14: synced 4975 new rows (total now 21750).
+2026-09-15 18:27:16,536 [INFO] candles_CRUDEOILM_2026-09-14: synced 199 new rows (total now 871).
+2026-09-15 18:27:18,693 [INFO] === Sync run complete: 29849 new rows total ===
+2026-09-16 10:39:20,218 [INFO] === Sync run starting ===
+2026-09-16 10:39:21,600 [INFO] Found 16 matching tabs.
+2026-09-16 10:39:24,045 [INFO] chain_NIFTY_2026-09-16: synced 2000 new rows (total now 2000).
+2026-09-16 10:39:24,617 [INFO] candles_NIFTY_2026-09-16: synced 83 new rows (total now 83).
+2026-09-16 10:39:25,595 [INFO] chain_CRUDEOILM_2026-09-16: synced 2425 new rows (total now 2425).
+2026-09-16 10:39:26,043 [INFO] candles_CRUDEOILM_2026-09-16: synced 97 new rows (total now 97).
+2026-09-16 20:05:39,117 [INFO] === Sync run starting ===
+2026-09-16 20:05:49,117 [INFO] Found 16 matching tabs.
+2026-09-16 20:05:59,574 [INFO] chain_NIFTY_2026-09-16: synced 7300 new rows (total now 9300).
+2026-09-16 20:06:00,311 [INFO] candles_NIFTY_2026-09-16: synced 292 new rows (total now 375).
+2026-09-16 20:06:03,523 [INFO] chain_CRUDEOILM_2026-09-16: synced 14150 new rows (total now 16575).
+2026-09-16 20:06:04,006 [INFO] candles_CRUDEOILM_2026-09-16: synced 567 new rows (total now 664).
+2026-09-16 20:06:10,444 [INFO] chain_CRUDEOILM_2026-09-15: synced 7600 new rows (total now 21850).
+2026-09-16 20:06:12,084 [INFO] candles_CRUDEOILM_2026-09-15: synced 304 new rows (total now 875).
+2026-09-16 20:06:19,643 [INFO] === Sync run complete: 30213 new rows total ===
+2026-09-16 20:12:57,396 [INFO] === Sync run starting ===
+2026-09-16 20:12:59,061 [INFO] Found 16 matching tabs.
+2026-09-16 20:13:57,916 [INFO] chain_CRUDEOILM_2026-09-16: synced 175 new rows (total now 16750).
+2026-09-16 20:13:58,665 [INFO] candles_CRUDEOILM_2026-09-16: synced 8 new rows (total now 672).
+2026-09-16 20:14:13,802 [INFO] === Sync run complete: 183 new rows total ===
+2026-09-16 20:17:17,335 [INFO] === Sync run starting ===
+2026-09-16 20:17:19,814 [INFO] Found 16 matching tabs.
+2026-09-16 20:18:01,954 [INFO] chain_CRUDEOILM_2026-09-16: synced 100 new rows (total now 16850).
+2026-09-16 20:18:02,775 [INFO] candles_CRUDEOILM_2026-09-16: synced 4 new rows (total now 676).
+2026-09-16 20:18:18,212 [INFO] === Sync run complete: 104 new rows total ===
+2026-09-17 11:06:12,035 [INFO] === Sync run starting ===
+2026-09-17 11:06:14,031 [INFO] Found 20 matching tabs.
+2026-09-17 11:06:16,882 [INFO] chain_NIFTY_2026-09-17: synced 2700 new rows (total now 2700).
+2026-09-17 11:06:17,345 [INFO] candles_NIFTY_2026-09-17: synced 110 new rows (total now 110).
+2026-09-17 11:06:18,657 [INFO] chain_CRUDEOILM_2026-09-17: synced 3150 new rows (total now 3150).
+2026-09-17 11:06:19,160 [INFO] candles_CRUDEOILM_2026-09-17: synced 126 new rows (total now 126).
+2026-09-17 11:06:23,557 [INFO] chain_CRUDEOILM_2026-09-16: synced 4850 new rows (total now 21700).
+2026-09-17 11:06:24,096 [INFO] candles_CRUDEOILM_2026-09-16: synced 193 new rows (total now 869).
+2026-09-17 11:06:36,789 [INFO] === Sync run complete: 11129 new rows total ===
+2026-09-18 19:14:05,765 [INFO] === Sync run starting ===
+2026-09-18 19:14:09,061 [INFO] Found 24 matching tabs.
+2026-09-18 19:14:16,367 [INFO] chain_NIFTY_2026-09-18: synced 9800 new rows (total now 9800).
+2026-09-18 19:14:18,862 [INFO] candles_NIFTY_2026-09-18: synced 394 new rows (total now 394).
+2026-09-18 19:14:24,738 [INFO] chain_CRUDEOILM_2026-09-18: synced 15775 new rows (total now 15775).
+2026-09-18 19:14:25,580 [INFO] candles_CRUDEOILM_2026-09-18: synced 634 new rows (total now 634).
+2026-09-18 19:14:28,761 [INFO] chain_NIFTY_2026-09-17: synced 6625 new rows (total now 9325).
+2026-09-18 19:14:29,517 [INFO] candles_NIFTY_2026-09-17: synced 265 new rows (total now 375).
+2026-09-18 19:14:34,142 [INFO] chain_CRUDEOILM_2026-09-17: synced 18550 new rows (total now 21700).
+2026-09-18 19:14:34,964 [INFO] candles_CRUDEOILM_2026-09-17: synced 744 new rows (total now 870).
+2026-09-18 19:14:54,119 [INFO] === Sync run complete: 52787 new rows total ===
+2026-09-18 19:19:34,240 [INFO] === Sync run starting ===
+2026-09-18 19:19:37,831 [INFO] Found 24 matching tabs.
+2026-09-18 19:19:46,860 [INFO] chain_CRUDEOILM_2026-09-18: synced 125 new rows (total now 15900).
+2026-09-18 19:19:47,696 [INFO] candles_CRUDEOILM_2026-09-18: synced 5 new rows (total now 639).
+2026-09-18 19:20:14,965 [INFO] === Sync run complete: 130 new rows total ===
+2026-09-18 23:45:03,681 [INFO] === Sync run starting ===
+2026-09-18 23:45:05,537 [INFO] Found 24 matching tabs.
+2026-09-18 23:45:14,155 [INFO] chain_CRUDEOILM_2026-09-18: synced 6300 new rows (total now 22200).
+2026-09-18 23:45:14,898 [INFO] candles_CRUDEOILM_2026-09-18: synced 252 new rows (total now 891).
+2026-09-18 23:45:42,546 [INFO] === Sync run complete: 6552 new rows total ===
+2026-09-19 23:45:08,631 [INFO] === Sync run starting ===
+2026-09-19 23:45:16,698 [INFO] Found 24 matching tabs.
+2026-09-19 23:45:45,529 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-20 22:02:10,410 [INFO] === Sync run starting ===
+2026-09-20 22:02:21,426 [INFO] Found 24 matching tabs.
+2026-09-20 22:02:56,808 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-21 19:37:46,090 [INFO] === Sync run starting ===
+2026-09-21 19:37:47,645 [INFO] Found 28 matching tabs.
+2026-09-21 19:37:50,889 [INFO] chain_NIFTY_2026-09-21: synced 9400 new rows (total now 9400).
+2026-09-21 19:37:51,443 [INFO] candles_NIFTY_2026-09-21: synced 376 new rows (total now 376).
+2026-09-21 19:37:54,857 [INFO] chain_CRUDEOILM_2026-09-21: synced 15900 new rows (total now 15900).
+2026-09-21 19:37:55,759 [INFO] candles_CRUDEOILM_2026-09-21: synced 636 new rows (total now 636).
+2026-09-21 19:38:22,228 [INFO] === Sync run complete: 26312 new rows total ===
+2026-09-21 20:10:58,503 [INFO] === Sync run starting ===
+2026-09-21 20:10:59,828 [INFO] Found 28 matching tabs.
+2026-09-21 20:11:06,794 [INFO] chain_CRUDEOILM_2026-09-21: synced 825 new rows (total now 16725).
+2026-09-21 20:11:07,566 [INFO] candles_CRUDEOILM_2026-09-21: synced 34 new rows (total now 670).
+2026-09-21 20:11:40,910 [INFO] === Sync run complete: 859 new rows total ===
+2026-09-21 23:45:17,620 [INFO] === Sync run starting ===
+2026-09-21 23:45:25,081 [INFO] Found 28 matching tabs.
+2026-09-21 23:45:32,530 [INFO] chain_CRUDEOILM_2026-09-21: synced 4975 new rows (total now 21700).
+2026-09-21 23:45:33,202 [INFO] candles_CRUDEOILM_2026-09-21: synced 199 new rows (total now 869).
+2026-09-21 23:46:01,570 [INFO] === Sync run complete: 5174 new rows total ===
+2026-09-22 01:57:06,569 [INFO] === Sync run starting ===
+2026-09-22 01:57:15,423 [INFO] Found 28 matching tabs.
+2026-09-22 01:57:47,786 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-22 20:23:04,208 [INFO] === Sync run starting ===
+2026-09-22 20:23:06,192 [INFO] Found 32 matching tabs.
+2026-09-22 20:23:08,928 [INFO] chain_NIFTY_2026-09-22: synced 9400 new rows (total now 9400).
+2026-09-22 20:23:09,428 [INFO] candles_NIFTY_2026-09-22: synced 376 new rows (total now 376).
+2026-09-22 20:23:12,822 [INFO] chain_CRUDEOILM_2026-09-22: synced 17025 new rows (total now 17025).
+2026-09-22 20:23:13,349 [INFO] candles_CRUDEOILM_2026-09-22: synced 682 new rows (total now 682).
+2026-09-22 20:23:43,087 [INFO] === Sync run complete: 27483 new rows total ===
+2026-09-22 23:45:19,024 [INFO] === Sync run starting ===
+2026-09-22 23:45:26,138 [INFO] Found 32 matching tabs.
+2026-09-22 23:45:32,844 [INFO] chain_CRUDEOILM_2026-09-22: synced 4700 new rows (total now 21725).
+2026-09-22 23:45:33,420 [INFO] candles_CRUDEOILM_2026-09-22: synced 187 new rows (total now 869).
+2026-09-22 23:46:03,716 [INFO] === Sync run complete: 4887 new rows total ===
+2026-09-23 01:22:43,151 [INFO] === Sync run starting ===
+2026-09-23 01:22:53,745 [INFO] Found 32 matching tabs.
+2026-09-23 01:23:36,032 [INFO] === Sync run complete: 0 new rows total ===
+2026-09-23 10:57:44,512 [INFO] === Sync run starting ===
+2026-09-23 10:57:46,498 [INFO] Found 36 matching tabs.
+2026-09-23 10:57:48,920 [INFO] chain_NIFTY_2026-09-23: synced 2575 new rows (total now 2575).
+2026-09-23 10:57:49,550 [INFO] candles_NIFTY_2026-09-23: synced 103 new rows (total now 103).
+2026-09-23 10:57:51,437 [INFO] chain_CRUDEOILM_2026-09-23: synced 3000 new rows (total now 3000).
+2026-09-23 10:57:52,592 [INFO] candles_CRUDEOILM_2026-09-23: synced 120 new rows (total now 120).
+2026-09-23 10:58:25,347 [INFO] === Sync run complete: 5798 new rows total ===
+2026-09-23 23:45:18,197 [INFO] === Sync run starting ===
+2026-09-23 23:45:27,434 [INFO] Found 36 matching tabs.
+2026-09-23 23:45:31,008 [INFO] chain_NIFTY_2026-09-23: synced 6825 new rows (total now 9400).
+2026-09-23 23:45:31,676 [INFO] candles_NIFTY_2026-09-23: synced 273 new rows (total now 376).
+2026-09-23 23:45:35,667 [INFO] chain_CRUDEOILM_2026-09-23: synced 18800 new rows (total now 21800).
+2026-09-23 23:45:36,413 [INFO] candles_CRUDEOILM_2026-09-23: synced 752 new rows (total now 872).
+2026-09-23 23:46:16,838 [INFO] === Sync run complete: 26650 new rows total ===
+2026-09-24 23:45:22,466 [INFO] === Sync run starting ===
+2026-09-24 23:45:34,271 [INFO] Found 40 matching tabs.
+2026-09-24 23:45:39,704 [INFO] chain_NIFTY_2026-09-24: synced 9375 new rows (total now 9375).
+2026-09-24 23:45:40,243 [INFO] candles_NIFTY_2026-09-24: synced 375 new rows (total now 375).
+2026-09-24 23:45:44,459 [INFO] chain_CRUDEOILM_2026-09-24: synced 21725 new rows (total now 21725).
+2026-09-24 23:45:45,201 [INFO] candles_CRUDEOILM_2026-09-24: synced 869 new rows (total now 869).
+2026-09-24 23:46:26,906 [INFO] === Sync run complete: 32344 new rows total ===
+2026-09-25 14:14:32,222 [INFO] === Sync run starting ===
+2026-09-25 14:14:34,178 [INFO] Found 44 matching tabs.
+2026-09-25 14:14:40,536 [INFO] chain_NIFTY_2026-09-25: synced 7475 new rows (total now 7475).
+2026-09-25 14:14:41,317 [INFO] candles_NIFTY_2026-09-25: synced 300 new rows (total now 300).
+2026-09-25 14:14:45,656 [INFO] chain_CRUDEOILM_2026-09-25: synced 7875 new rows (total now 7875).
+2026-09-25 14:14:46,645 [INFO] candles_CRUDEOILM_2026-09-25: synced 315 new rows (total now 315).
+2026-09-25 14:15:37,016 [INFO] === Sync run complete: 15965 new rows total ===
+2026-09-25 23:45:56,320 [INFO] === Sync run starting ===
+2026-09-25 23:46:10,492 [INFO] Found 44 matching tabs.
+2026-09-25 23:46:17,780 [INFO] chain_NIFTY_2026-09-25: synced 1925 new rows (total now 9400).
+2026-09-25 23:46:18,318 [INFO] candles_NIFTY_2026-09-25: synced 76 new rows (total now 376).
+2026-09-25 23:46:25,257 [INFO] chain_CRUDEOILM_2026-09-25: synced 13900 new rows (total now 21775).
+2026-09-25 23:46:25,953 [INFO] candles_CRUDEOILM_2026-09-25: synced 557 new rows (total now 872).
+2026-09-25 23:47:11,350 [INFO] === Sync run complete: 16458 new rows total ===
+2026-09-28 19:09:13,362 [INFO] === Sync run starting ===
+2026-09-28 19:09:15,776 [INFO] Found 48 matching tabs.
+2026-09-28 19:09:24,732 [INFO] chain_NIFTY_2026-09-28: synced 9400 new rows (total now 9400).
+2026-09-28 19:09:25,439 [INFO] candles_NIFTY_2026-09-28: synced 376 new rows (total now 376).
+2026-09-28 19:09:30,252 [INFO] chain_CRUDEOILM_2026-09-28: synced 15250 new rows (total now 15250).
+2026-09-28 19:09:30,873 [INFO] candles_CRUDEOILM_2026-09-28: synced 610 new rows (total now 610).
+2026-09-28 19:10:28,788 [INFO] === Sync run complete: 25636 new rows total ===
+2026-09-29 14:16:10,994 [INFO] === Sync run starting ===
+2026-09-29 14:16:18,774 [INFO] Found 52 matching tabs.
+2026-09-29 14:16:30,734 [INFO] chain_NIFTY_2026-09-29: synced 7525 new rows (total now 7525).
+2026-09-29 14:16:31,510 [INFO] candles_NIFTY_2026-09-29: synced 301 new rows (total now 301).
+2026-09-29 14:16:37,822 [INFO] chain_CRUDEOILM_2026-09-29: synced 7950 new rows (total now 7950).
+2026-09-29 14:16:38,483 [INFO] candles_CRUDEOILM_2026-09-29: synced 318 new rows (total now 318).
+2026-09-29 14:16:53,262 [INFO] chain_CRUDEOILM_2026-09-28: synced 6550 new rows (total now 21800).
+2026-09-29 14:16:53,917 [INFO] candles_CRUDEOILM_2026-09-28: synced 262 new rows (total now 872).
+2026-09-29 14:18:36,175 [INFO] === Sync run complete: 22906 new rows total ===
+2026-09-29 15:40:52,382 [INFO] === Sync run starting ===
+2026-09-29 15:40:54,540 [INFO] Found 52 matching tabs.
+2026-09-29 15:41:02,705 [INFO] chain_NIFTY_2026-09-29: synced 1875 new rows (total now 9400).
+2026-09-29 15:41:03,414 [INFO] candles_NIFTY_2026-09-29: synced 75 new rows (total now 376).
+2026-09-29 15:41:06,731 [INFO] chain_CRUDEOILM_2026-09-29: synced 2100 new rows (total now 10050).
+2026-09-29 15:41:07,658 [INFO] candles_CRUDEOILM_2026-09-29: synced 84 new rows (total now 402).
+2026-09-29 15:42:13,952 [INFO] === Sync run complete: 4134 new rows total ===
+2026-09-29 15:47:27,205 [INFO] === Sync run starting ===
+2026-09-29 15:47:29,330 [INFO] Found 52 matching tabs.
+2026-09-29 15:47:37,246 [INFO] chain_CRUDEOILM_2026-09-29: synced 175 new rows (total now 10225).
+2026-09-29 15:47:38,013 [INFO] candles_CRUDEOILM_2026-09-29: synced 7 new rows (total now 409).
+2026-09-29 15:48:37,843 [INFO] === Sync run complete: 182 new rows total ===
+2026-09-29 18:21:23,572 [INFO] === Sync run starting ===
+2026-09-29 18:21:26,099 [INFO] Found 52 matching tabs.
+2026-09-29 18:21:34,877 [INFO] chain_CRUDEOILM_2026-09-29: synced 3850 new rows (total now 14075).
+2026-09-29 18:21:35,635 [INFO] candles_CRUDEOILM_2026-09-29: synced 154 new rows (total now 563).
+2026-09-29 18:22:46,193 [INFO] === Sync run complete: 4004 new rows total ===
+2026-09-29 23:45:59,903 [INFO] === Sync run starting ===
+2026-09-29 23:46:23,781 [INFO] Found 52 matching tabs.
+2026-09-29 23:46:40,310 [INFO] chain_CRUDEOILM_2026-09-29: synced 7700 new rows (total now 21775).
+2026-09-29 23:46:41,123 [INFO] candles_CRUDEOILM_2026-09-29: synced 309 new rows (total now 872).
+2026-09-29 23:47:51,245 [INFO] === Sync run complete: 8009 new rows total ===
+2026-09-30 17:40:53,520 [INFO] === Sync run starting ===
+2026-09-30 17:40:56,750 [INFO] Found 56 matching tabs.
+2026-09-30 17:41:02,593 [INFO] chain_NIFTY_2026-09-30: synced 9400 new rows (total now 9400).
+2026-09-30 17:41:03,180 [INFO] candles_NIFTY_2026-09-30: synced 376 new rows (total now 376).
+2026-09-30 17:41:07,189 [INFO] chain_CRUDEOILM_2026-09-30: synced 13050 new rows (total now 13050).
+2026-09-30 17:41:07,706 [INFO] candles_CRUDEOILM_2026-09-30: synced 522 new rows (total now 522).
+2026-09-30 17:42:04,875 [INFO] === Sync run complete: 23348 new rows total ===
+2026-10-01 19:43:42,172 [INFO] === Sync run starting ===
+2026-10-01 19:43:46,307 [INFO] Found 60 matching tabs.
+2026-10-01 19:43:46,438 [INFO] Found 60 matching tabs.
+2026-10-01 19:44:00,886 [INFO] chain_NIFTY_2026-10-01: synced 9400 new rows (total now 9400).
+2026-10-01 19:44:00,893 [INFO] chain_NIFTY_2026-10-01: synced 9400 new rows (total now 9400).
+2026-10-01 19:44:01,636 [INFO] candles_NIFTY_2026-10-01: synced 376 new rows (total now 376).
+2026-10-01 19:44:01,641 [INFO] candles_NIFTY_2026-10-01: synced 376 new rows (total now 376).
+2026-10-01 19:44:08,925 [INFO] chain_CRUDEOILM_2026-10-01: synced 16075 new rows (total now 16075).
+2026-10-01 19:44:08,998 [INFO] chain_CRUDEOILM_2026-10-01: synced 16075 new rows (total now 16075).
+2026-10-01 19:44:10,168 [INFO] candles_CRUDEOILM_2026-10-01: synced 644 new rows (total now 644).
+2026-10-01 19:44:10,170 [INFO] candles_CRUDEOILM_2026-10-01: synced 644 new rows (total now 644).
+2026-10-01 19:44:33,033 [INFO] chain_CRUDEOILM_2026-09-30: synced 8750 new rows (total now 21800).
+2026-10-01 19:44:34,519 [INFO] candles_CRUDEOILM_2026-09-30: synced 350 new rows (total now 872).
+2026-10-01 19:46:13,220 [INFO] === Sync run complete: 35595 new rows total ===

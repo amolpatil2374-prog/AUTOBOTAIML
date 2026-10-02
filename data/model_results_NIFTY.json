@@ -1,0 +1,60 @@
+{
+  "combinations_tested": 20,
+  "selected_strategy": {
+    "threshold_pct": 2.0,
+    "window_minutes": 60
+  },
+  "walk_forward": {
+    "overall_win_rate": 0.706984667802385,
+    "total_signals": 2348,
+    "baseline": 0.5,
+    "signals_per_fold": [
+      41,
+      298,
+      0,
+      358,
+      355,
+      358,
+      216,
+      361,
+      361
+    ]
+  },
+  "liquidity": {
+    "pct_fresh_signals": 1.0,
+    "pct_acceptable_spread": 1.0
+  },
+  "economics": {
+    "n_trades": 108,
+    "net_expectancy_pct": 13.180467754124072,
+    "profit_factor": 2.4823031204944352,
+    "breakeven_win_rate": 0.1288305163436001,
+    "actual_win_rate": 0.26851851851851855
+  },
+  "risk": {
+    "max_drawdown_pct": null,
+    "sl_efficiency_pct": 100.0,
+    "trailing_capture_pct": 6.142793332104928,
+    "position_sizing_defined": false
+  },
+  "robustness": {
+    "half1_significant": true,
+    "half2_significant": true,
+    "single_day_concentration": {
+      "sufficient": true,
+      "max_single_day_share_pct": 98.33857445300804,
+      "n_days_with_trades": 7,
+      "best_day_pnl_pct": 1661.1294460468375
+    },
+    "slippage_stress": {
+      "sufficient": true,
+      "n_trades_stressed": 108,
+      "baseline_expectancy_pct": 13.180467754124074,
+      "stressed_expectancy_pct": {
+        "1.5x": 12.97683836275896,
+        "2.0x": 12.773723222069304
+      },
+      "survives_2x_stress": true
+    }
+  }
+}

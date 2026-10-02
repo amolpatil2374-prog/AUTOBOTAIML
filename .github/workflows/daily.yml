@@ -62,8 +62,26 @@ jobs:
 
       - name: Commit updated data and dashboard back to the repo
         run: |
+          cp dashboard.html index.html
           git config user.name "pipeline-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/ logs/ state/sync_state.json dashboard.html
+          git add data/ logs/ state/sync_state.json dashboard.html index.html
           git diff --staged --quiet || git commit -m "Automated daily pipeline update"
-          git push
+
+          # The remote can move between this job's checkout and this push —
+          # e.g. a manual push from the laptop landing in between. Rather
+          # than fail outright and silently drop a real day's Phase 2
+          # results (as happened once already), pull in what changed and
+          # retry a few times before giving up.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Push succeeded on attempt $attempt"
+              break
+            fi
+            echo "Push rejected (attempt $attempt) — pulling remote changes and retrying"
+            git pull --rebase origin main
+            if [ "$attempt" = "3" ]; then
+              echo "Push still failing after 3 attempts — giving up this run"
+              exit 1
+            fi
+          done

@@ -49,9 +49,9 @@
     "slippage_stress": {
       "sufficient": true,
       "n_trades_stressed": 108,
-      "baseline_expectancy_pct": 13.180467754124074,
+      "baseline_expectancy_pct": 13.18046775412407,
       "stressed_expectancy_pct": {
-        "1.5x": 12.97683836275896,
+        "1.5x": 12.976838362758963,
         "2.0x": 12.773723222069304
       },
       "survives_2x_stress": true

@@ -496,3 +496,11 @@ SUMMARY
 2026-10-01 19:44:33,033 [INFO] chain_CRUDEOILM_2026-09-30: synced 8750 new rows (total now 21800).
 2026-10-01 19:44:34,519 [INFO] candles_CRUDEOILM_2026-09-30: synced 350 new rows (total now 872).
 2026-10-01 19:46:13,220 [INFO] === Sync run complete: 35595 new rows total ===
+2026-10-03 03:47:45,354 [INFO] === Sync run starting ===
+2026-10-03 03:47:57,970 [INFO] Found 64 matching tabs.
+2026-10-03 03:48:42,398 [ERROR] candles_CRUDEOILM_2026-09-14: failed to read — APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:88658062969'.. Will retry next run.
+2026-10-03 03:48:42,495 [ERROR] chain_CRUDEOILM_2026-09-13: failed to read — APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:88658062969'.. Will retry next run.
+2026-10-03 03:48:42,586 [ERROR] chain_NIFTY_2026-09-13: failed to read — APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:88658062969'.. Will retry next run.
+2026-10-03 03:48:42,793 [ERROR] candles_CRUDEOILM_2026-09-13: failed to read — APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:88658062969'.. Will retry next run.
+2026-10-03 03:48:42,885 [ERROR] candles_NIFTY_2026-09-13: failed to read — APIError: [429]: Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:88658062969'.. Will retry next run.
+2026-10-03 03:48:42,886 [INFO] === Sync run complete: 0 new rows total ===

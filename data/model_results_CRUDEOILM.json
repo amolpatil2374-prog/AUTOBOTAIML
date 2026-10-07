@@ -1,39 +1,34 @@
 {
   "combinations_tested": 24,
   "selected_strategy": {
-    "threshold_pct": 17.0,
-    "window_minutes": 2610
+    "threshold_pct": 93.0,
+    "window_minutes": 8700
   },
   "walk_forward": {
-    "overall_win_rate": 0.4889502762430939,
-    "total_signals": 362,
+    "overall_win_rate": 0.0,
+    "total_signals": 178,
     "baseline": 0.5,
     "signals_per_fold": [
-      0,
-      0,
-      45,
-      67,
-      57,
-      67,
-      66,
-      60
+      68,
+      62,
+      48
     ]
   },
   "liquidity": {
     "pct_fresh_signals": 1.0,
-    "pct_acceptable_spread": 0.9972375690607734
+    "pct_acceptable_spread": 1.0
   },
   "economics": {
-    "n_trades": 213,
-    "net_expectancy_pct": 2.180021319367465,
-    "profit_factor": 1.2615101552403822,
-    "breakeven_win_rate": 0.45845645565453186,
-    "actual_win_rate": 0.5164319248826291
+    "n_trades": 99,
+    "net_expectancy_pct": 8.563177658043289,
+    "profit_factor": 1.8457759444308814,
+    "breakeven_win_rate": 0.4338822746087001,
+    "actual_win_rate": 0.5858585858585859
   },
   "risk": {
     "max_drawdown_pct": null,
-    "sl_efficiency_pct": 100.0,
-    "trailing_capture_pct": 64.5628782363106,
+    "sl_efficiency_pct": null,
+    "trailing_capture_pct": null,
     "position_sizing_defined": false
   },
   "robustness": {
@@ -41,17 +36,17 @@
     "half2_significant": false,
     "single_day_concentration": {
       "sufficient": true,
-      "max_single_day_share_pct": 72.63520200829834,
-      "n_days_with_trades": 4,
-      "best_day_pnl_pct": 344.424548543059
+      "max_single_day_share_pct": 70.5811235090332,
+      "n_days_with_trades": 2,
+      "best_day_pnl_pct": 598.3547129130258
     },
     "slippage_stress": {
       "sufficient": true,
-      "n_trades_stressed": 213,
-      "baseline_expectancy_pct": 2.1800213193674653,
+      "n_trades_stressed": 99,
+      "baseline_expectancy_pct": 8.563177658043292,
       "stressed_expectancy_pct": {
-        "1.5x": 1.791921892150282,
-        "2.0x": 1.420287261050465
+        "1.5x": 8.274085419765631,
+        "2.0x": 7.986222705148619
       },
       "survives_2x_stress": true
     }

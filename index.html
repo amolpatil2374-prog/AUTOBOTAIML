@@ -48,16 +48,13 @@
 </head>
 <body>
   <h1>Option Chain Pipeline — Dashboard</h1>
-  <div class="generated">Generated 2026-10-06 07:32:54 IST — auto-refreshes every 5 minutes while this tab stays open. Re-run run_daily.py (or wait for the next scheduled run) to update the underlying data.</div>
+  <div class="generated">Generated 2026-10-07 06:15:33 IST — auto-refreshes every 5 minutes while this tab stays open. Re-run run_daily.py (or wait for the next scheduled run) to update the underlying data.</div>
 
   <div class="card">
     <h2>Pipeline Health</h2>
     
       <div class="status-badge ready">Last run completed cleanly</div>
-      <pre class="log-tail">2026-09-30 20:38:12,310 [INFO] Dashboard regenerated (pre-completion pass).
-2026-09-30 20:38:14,765 [INFO] === Daily run complete ===
-2026-10-01 19:43:42,167 [INFO] === Daily run starting ===
-2026-10-01 19:44:30,417 [ERROR] Sync step failed: Could not open Parquet input source &#x27;&lt;Buffer&gt;&#x27;: Parquet file size is 0 bytes. Continuing to report on whatever data already exists locally.
+      <pre class="log-tail">2026-10-01 19:44:30,417 [ERROR] Sync step failed: Could not open Parquet input source &#x27;&lt;Buffer&gt;&#x27;: Parquet file size is 0 bytes. Continuing to report on whatever data already exists locally.
 2026-10-01 19:44:31,928 [ERROR] Report step failed: Could not open Parquet input source &#x27;&lt;Buffer&gt;&#x27;: Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
 2026-10-01 23:58:40,594 [INFO] Dashboard regenerated (pre-completion pass).
 2026-10-01 23:58:43,020 [INFO] === Daily run complete ===
@@ -69,6 +66,9 @@
 2026-10-06 05:36:19,333 [INFO] === Daily run starting ===
 2026-10-06 07:32:54,302 [INFO] Dashboard regenerated (pre-completion pass).
 2026-10-06 07:32:54,302 [INFO] === Daily run complete ===
+2026-10-07 04:10:53,525 [INFO] === Daily run starting ===
+2026-10-07 06:15:33,908 [INFO] Dashboard regenerated (pre-completion pass).
+2026-10-07 06:15:33,909 [INFO] === Daily run complete ===
 </pre>
   </div>
 
@@ -77,11 +77,11 @@
       <h2>NIFTY</h2>
       <div class="status-badge not-ready">NOT READY</div>
       <div class="stat-grid">
-        <div><span class="stat-label">Trading days</span><span class="stat-value">17 / 20</span></div>
-        <div><span class="stat-label">Total rows</span><span class="stat-value">150,700</span></div>
-        <div><span class="stat-label">Date range</span><span class="stat-value">2026-09-13 to 2026-10-05</span></div>
+        <div><span class="stat-label">Trading days</span><span class="stat-value">18 / 20</span></div>
+        <div><span class="stat-label">Total rows</span><span class="stat-value">160,075</span></div>
+        <div><span class="stat-label">Date range</span><span class="stat-value">2026-09-13 to 2026-10-06</span></div>
       </div>
-      <div class="progress-track"><div class="progress-fill" style="width:85%"></div></div>
+      <div class="progress-track"><div class="progress-fill" style="width:90%"></div></div>
       
         <div class="warning">
           <strong>1 thin day(s)</strong> (fewer than 300 rows —
@@ -105,17 +105,18 @@
 <div class='bar-row'><span class='bar-label'>2026-09-30</span><div class='bar-track'><div class='bar' style='width:96%'></div></div><span class='bar-value'>9400</span></div>
 <div class='bar-row'><span class='bar-label'>2026-10-01</span><div class='bar-track'><div class='bar' style='width:96%'></div></div><span class='bar-value'>9400</span></div>
 <div class='bar-row'><span class='bar-label'>2026-10-02</span><div class='bar-track'><div class='bar' style='width:96%'></div></div><span class='bar-value'>9375</span></div>
-<div class='bar-row'><span class='bar-label'>2026-10-05</span><div class='bar-track'><div class='bar' style='width:96%'></div></div><span class='bar-value'>9400</span></div></div>
+<div class='bar-row'><span class='bar-label'>2026-10-05</span><div class='bar-track'><div class='bar' style='width:96%'></div></div><span class='bar-value'>9400</span></div>
+<div class='bar-row'><span class='bar-label'>2026-10-06</span><div class='bar-track'><div class='bar' style='width:96%'></div></div><span class='bar-value'>9375</span></div></div>
     </div>
     <div class="card">
       <h2>CRUDEOILM</h2>
       <div class="status-badge not-ready">NOT READY</div>
       <div class="stat-grid">
-        <div><span class="stat-label">Trading days</span><span class="stat-value">17 / 20</span></div>
-        <div><span class="stat-label">Total rows</span><span class="stat-value">348,576</span></div>
-        <div><span class="stat-label">Date range</span><span class="stat-value">2026-09-13 to 2026-10-05</span></div>
+        <div><span class="stat-label">Trading days</span><span class="stat-value">18 / 20</span></div>
+        <div><span class="stat-label">Total rows</span><span class="stat-value">370,376</span></div>
+        <div><span class="stat-label">Date range</span><span class="stat-value">2026-09-13 to 2026-10-06</span></div>
       </div>
-      <div class="progress-track"><div class="progress-fill" style="width:85%"></div></div>
+      <div class="progress-track"><div class="progress-fill" style="width:90%"></div></div>
       
         <div class="warning">
           <strong>1 thin day(s)</strong> (fewer than 300 rows —
@@ -139,7 +140,8 @@
 <div class='bar-row'><span class='bar-label'>2026-09-30</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21800</span></div>
 <div class='bar-row'><span class='bar-label'>2026-10-01</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21725</span></div>
 <div class='bar-row'><span class='bar-label'>2026-10-02</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21750</span></div>
-<div class='bar-row'><span class='bar-label'>2026-10-05</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21775</span></div></div>
+<div class='bar-row'><span class='bar-label'>2026-10-05</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21775</span></div>
+<div class='bar-row'><span class='bar-label'>2026-10-06</span><div class='bar-track'><div class='bar' style='width:98%'></div></div><span class='bar-value'>21800</span></div></div>
     </div>
 
   
@@ -147,7 +149,7 @@
       <h2>NIFTY — KPI Scorecard</h2>
       <div class="status-badge not-ready">NOT READY</div>
       <h3>Tier 0 gates</h3>
-      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>35/40 runs completed cleanly (88%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>15/20 trading days collected</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 69.03% at 99.75% confidence (corrected for 20 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G4</span><span class='gate-detail'>2563 total signals, smallest fold 0 (need &gt;=30/fold, &gt;=1318 total — computed to reliably detect a 5% edge at 80% power, corrected for 20 combinations)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
+      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>36/41 runs completed cleanly (88%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>16/20 trading days collected</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 69.00% at 99.75% confidence (corrected for 20 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G4</span><span class='gate-detail'>2567 total signals, smallest fold 0 (need &gt;=30/fold, &gt;=1318 total — computed to reliably detect a 5% edge at 80% power, corrected for 20 combinations)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
       <h3>Tier 1 composite score</h3>
       <p class='muted'>Tier 1 score locked until all Tier 0 gates pass.</p>
     </div>
@@ -155,7 +157,7 @@
       <h2>CRUDEOILM — KPI Scorecard</h2>
       <div class="status-badge not-ready">NOT READY</div>
       <h3>Tier 0 gates</h3>
-      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>35/40 runs completed cleanly (88%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>16/20 trading days collected</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 40.94% at 99.79% confidence (corrected for 24 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G4</span><span class='gate-detail'>362 total signals, smallest fold 0 (need &gt;=30/fold, &gt;=1361 total — computed to reliably detect a 5% edge at 80% power, corrected for 24 combinations)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
+      <div class="gate-list"><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G1</span><span class='gate-detail'>36/41 runs completed cleanly (88%, need 95%)</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G2</span><span class='gate-detail'>17/20 trading days collected</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G3</span><span class='gate-detail'>Wilson lower bound 0.00% at 99.79% confidence (corrected for 24 combinations tested) vs baseline 50.0%</span></div><div class='gate-row gate-fail'><span class='gate-icon'>&#10007;</span><span class='gate-name'>G4</span><span class='gate-detail'>178 total signals, smallest fold 48 (need &gt;=30/fold, &gt;=1361 total — computed to reliably detect a 5% edge at 80% power, corrected for 24 combinations)</span></div><div class='gate-row gate-pass'><span class='gate-icon'>&#10003;</span><span class='gate-name'>G5</span><span class='gate-detail'>100% fresh quotes, 100% acceptable spread</span></div></div>
       <h3>Tier 1 composite score</h3>
       <p class='muted'>Tier 1 score locked until all Tier 0 gates pass.</p>
     </div>

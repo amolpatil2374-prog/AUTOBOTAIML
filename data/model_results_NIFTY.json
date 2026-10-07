@@ -5,8 +5,8 @@
     "window_minutes": 60
   },
   "walk_forward": {
-    "overall_win_rate": 0.7179087007413187,
-    "total_signals": 2563,
+    "overall_win_rate": 0.7175691468640436,
+    "total_signals": 2567,
     "baseline": 0.5,
     "signals_per_fold": [
       41,
@@ -18,7 +18,7 @@
       216,
       361,
       361,
-      215
+      219
     ]
   },
   "liquidity": {

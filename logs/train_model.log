@@ -1192,3 +1192,57 @@
 2026-10-09 07:04:57,126 [INFO] CRUDEOILM: single-day profit concentration: {'sufficient': True, 'max_single_day_share_pct': 100.0, 'n_days_with_trades': 1, 'best_day_pnl_pct': 504.80056025300536}
 2026-10-09 07:04:57,126 [INFO] CRUDEOILM: slippage stress test: {'sufficient': True, 'n_trades_stressed': 29, 'baseline_expectancy_pct': 17.406915870793288, 'stressed_expectancy_pct': {'1.5x': 17.105158250567257, '2.0x': 16.8047973270076}, 'survives_2x_stress': True}
 2026-10-09 07:04:57,126 [INFO] CRUDEOILM: wrote /home/runner/work/AUTOBOTAIML/AUTOBOTAIML/data/model_results_CRUDEOILM.json
+2026-10-10 04:12:56,015 [INFO] === NIFTY: starting Phase 2 search ===
+2026-10-10 04:14:46,968 [INFO]   window=15min threshold=1.0% -> 11199 signals, win_rate=71.7%, Wilson lower bound=70.4% (at 99.75% confidence), net_expectancy=-1.24% (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:16:34,851 [INFO]   window=15min threshold=2.0% -> 8920 signals, win_rate=62.0%, Wilson lower bound=60.5% (at 99.75% confidence), net_expectancy=-1.01% (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:18:20,895 [INFO]   window=15min threshold=2.5% -> 7114 signals, win_rate=59.2%, Wilson lower bound=57.4% (at 99.75% confidence), net_expectancy=-0.76% (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:20:05,091 [INFO]   window=15min threshold=3.5% -> 3706 signals, win_rate=53.8%, Wilson lower bound=51.3% (at 99.75% confidence), net_expectancy=0.51% (PROFITABLE)
+2026-10-10 04:21:52,779 [INFO]   window=60min threshold=2.0% -> 2877 signals, win_rate=72.5%, Wilson lower bound=69.9% (at 99.75% confidence), net_expectancy=12.95% (PROFITABLE)
+2026-10-10 04:23:40,299 [INFO]   window=60min threshold=3.5% -> 2519 signals, win_rate=63.5%, Wilson lower bound=60.6% (at 99.75% confidence), net_expectancy=15.65% (PROFITABLE)
+2026-10-10 04:25:26,494 [INFO]   window=60min threshold=5.0% -> 1872 signals, win_rate=58.8%, Wilson lower bound=55.3% (at 99.75% confidence), net_expectancy=24.64% (PROFITABLE)
+2026-10-10 04:27:10,013 [INFO]   window=60min threshold=7.0% -> 1132 signals, win_rate=54.6%, Wilson lower bound=50.1% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:28:56,338 [INFO]   window=180min threshold=3.0% -> 1080 signals, win_rate=69.5%, Wilson lower bound=65.2% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:30:41,343 [INFO]   window=180min threshold=6.0% -> 832 signals, win_rate=61.4%, Wilson lower bound=56.2% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:32:26,199 [INFO]   window=180min threshold=9.0% -> 679 signals, win_rate=53.9%, Wilson lower bound=48.1% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:34:10,312 [INFO]   window=180min threshold=12.0% -> 563 signals, win_rate=49.7%, Wilson lower bound=43.4% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:35:54,422 [INFO]   window=375min threshold=4.0% -> 492 signals, win_rate=80.1%, Wilson lower bound=74.1% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:37:36,555 [INFO]   window=375min threshold=8.5% -> 413 signals, win_rate=70.5%, Wilson lower bound=63.3% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:39:18,600 [INFO]   window=375min threshold=13.0% -> 389 signals, win_rate=64.0%, Wilson lower bound=56.4% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:40:58,659 [INFO]   window=375min threshold=17.0% -> 309 signals, win_rate=57.0%, Wilson lower bound=48.4% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:42:40,546 [INFO]   window=750min threshold=6.0% -> 374 signals, win_rate=78.1%, Wilson lower bound=71.0% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:44:21,628 [INFO]   window=750min threshold=12.0% -> 344 signals, win_rate=68.9%, Wilson lower bound=60.9% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:46:01,043 [INFO]   window=750min threshold=18.0% -> 241 signals, win_rate=58.1%, Wilson lower bound=48.4% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:47:41,600 [INFO]   window=750min threshold=24.0% -> 171 signals, win_rate=52.6%, Wilson lower bound=41.2% (at 99.75% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:47:41,600 [INFO] NIFTY: selected window=60min threshold=2.0% (Wilson lower bound 69.9%, net expectancy 12.95%) out of 4/20 profitable candidates
+2026-10-10 04:47:41,700 [INFO] NIFTY: single-day profit concentration: {'sufficient': True, 'max_single_day_share_pct': 98.29086532593362, 'n_days_with_trades': 8, 'best_day_pnl_pct': 1661.1294460468375}
+2026-10-10 04:47:41,700 [INFO] NIFTY: slippage stress test: {'sufficient': True, 'n_trades_stressed': 110, 'baseline_expectancy_pct': 12.948276642267567, 'stressed_expectancy_pct': {'1.5x': 12.74229878274717, '2.0x': 12.536845887805296}, 'survives_2x_stress': True}
+2026-10-10 04:47:41,701 [INFO] NIFTY: wrote /home/runner/work/AUTOBOTAIML/AUTOBOTAIML/data/model_results_NIFTY.json
+2026-10-10 04:47:41,729 [INFO] === CRUDEOILM: starting Phase 2 search ===
+2026-10-10 04:52:01,748 [INFO]   window=15min threshold=1.5% -> 21249 signals, win_rate=51.9%, Wilson lower bound=50.8% (at 99.79% confidence), net_expectancy=-0.53% (NOT PROFITABLE — excluded from selection)
+2026-10-10 04:56:10,034 [INFO]   window=15min threshold=2.5% -> 8203 signals, win_rate=30.9%, Wilson lower bound=29.4% (at 99.79% confidence), net_expectancy=-0.43% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:00:16,441 [INFO]   window=15min threshold=4.0% -> 5582 signals, win_rate=10.8%, Wilson lower bound=9.6% (at 99.79% confidence), net_expectancy=-0.50% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:04:24,067 [INFO]   window=15min threshold=5.0% -> 5367 signals, win_rate=5.2%, Wilson lower bound=4.3% (at 99.79% confidence), net_expectancy=-0.47% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:08:50,851 [INFO]   window=60min threshold=2.5% -> 9696 signals, win_rate=57.1%, Wilson lower bound=55.6% (at 99.79% confidence), net_expectancy=-0.48% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:13:04,006 [INFO]   window=60min threshold=5.0% -> 3634 signals, win_rate=36.7%, Wilson lower bound=34.3% (at 99.79% confidence), net_expectancy=-0.58% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:17:13,743 [INFO]   window=60min threshold=8.0% -> 2385 signals, win_rate=18.9%, Wilson lower bound=16.5% (at 99.79% confidence), net_expectancy=-0.19% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:21:23,317 [INFO]   window=60min threshold=10.0% -> 1849 signals, win_rate=14.5%, Wilson lower bound=12.2% (at 99.79% confidence), net_expectancy=-0.83% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:25:34,800 [INFO]   window=870min threshold=10.0% -> 619 signals, win_rate=64.3%, Wilson lower bound=58.2% (at 99.79% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:29:39,565 [INFO]   window=870min threshold=20.0% -> 440 signals, win_rate=33.0%, Wilson lower bound=26.5% (at 99.79% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:33:42,397 [INFO]   window=870min threshold=30.0% -> 282 signals, win_rate=18.4%, Wilson lower bound=12.4% (at 99.79% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:37:40,492 [INFO]   window=870min threshold=40.0% -> 202 signals, win_rate=21.8%, Wilson lower bound=14.2% (at 99.79% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:41:39,727 [INFO]   window=2610min threshold=17.0% -> 484 signals, win_rate=49.6%, Wilson lower bound=42.7% (at 99.79% confidence), net_expectancy=-0.81% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:45:31,811 [INFO]   window=2610min threshold=34.0% -> 294 signals, win_rate=41.8%, Wilson lower bound=33.4% (at 99.79% confidence), net_expectancy=-3.32% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:49:21,499 [INFO]   window=2610min threshold=51.0% -> 87 signals, win_rate=9.2%, Wilson lower bound=3.3% (at 99.79% confidence), net_expectancy=-15.00% (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:53:12,438 [INFO]   window=2610min threshold=68.0% -> 38 signals, win_rate=0.0%, Wilson lower bound=0.0% (at 99.79% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 05:56:58,617 [INFO]   window=4350min threshold=22.0% -> 306 signals, win_rate=34.6%, Wilson lower bound=26.8% (at 99.79% confidence), net_expectancy=-7.69% (NOT PROFITABLE — excluded from selection)
+2026-10-10 06:00:38,262 [INFO]   window=4350min threshold=44.0% -> 205 signals, win_rate=21.0%, Wilson lower bound=13.6% (at 99.79% confidence), net_expectancy=-0.96% (NOT PROFITABLE — excluded from selection)
+2026-10-10 06:04:19,255 [INFO]   window=4350min threshold=66.0% -> 90 signals, win_rate=15.6%, Wilson lower bound=7.2% (at 99.79% confidence), net_expectancy=N/A (NOT PROFITABLE — excluded from selection)
+2026-10-10 06:08:05,475 [INFO]   window=4350min threshold=88.0% -> 152 signals, win_rate=0.0%, Wilson lower bound=0.0% (at 99.79% confidence), net_expectancy=-5.44% (NOT PROFITABLE — excluded from selection)
+2026-10-10 06:11:34,935 [INFO]   window=8700min threshold=31.0% -> 133 signals, win_rate=51.9%, Wilson lower bound=38.9% (at 99.79% confidence), net_expectancy=-7.65% (NOT PROFITABLE — excluded from selection)
+2026-10-10 06:15:04,025 [INFO]   window=8700min threshold=62.0% -> 107 signals, win_rate=0.0%, Wilson lower bound=0.0% (at 99.79% confidence), net_expectancy=17.41% (PROFITABLE)
+2026-10-10 06:18:34,563 [INFO]   window=8700min threshold=93.0% -> 191 signals, win_rate=0.0%, Wilson lower bound=0.0% (at 99.79% confidence), net_expectancy=0.13% (PROFITABLE)
+2026-10-10 06:22:06,346 [INFO]   window=8700min threshold=100.0% -> 205 signals, win_rate=0.0%, Wilson lower bound=0.0% (at 99.79% confidence), net_expectancy=-6.97% (NOT PROFITABLE — excluded from selection)
+2026-10-10 06:22:06,346 [INFO] CRUDEOILM: selected window=8700min threshold=62.0% (Wilson lower bound 0.0%, net expectancy 17.41%) out of 2/24 profitable candidates
+2026-10-10 06:22:06,383 [INFO] CRUDEOILM: single-day profit concentration: {'sufficient': True, 'max_single_day_share_pct': 100.0, 'n_days_with_trades': 1, 'best_day_pnl_pct': 504.80056025300536}
+2026-10-10 06:22:06,383 [INFO] CRUDEOILM: slippage stress test: {'sufficient': True, 'n_trades_stressed': 29, 'baseline_expectancy_pct': 17.406915870793288, 'stressed_expectancy_pct': {'1.5x': 17.105158250567257, '2.0x': 16.8047973270076}, 'survives_2x_stress': True}
+2026-10-10 06:22:06,383 [INFO] CRUDEOILM: wrote /home/runner/work/AUTOBOTAIML/AUTOBOTAIML/data/model_results_CRUDEOILM.json
